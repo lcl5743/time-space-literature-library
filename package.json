@@ -1,0 +1,16 @@
+{
+  "name": "time-space-literature",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A bilingual literature index for time-series, spatiotemporal, causal and statistical research",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/test.mjs",
+    "dev": "node scripts/dev.mjs",
+    "audit": "node scripts/audit-data.mjs",
+    "build:site": "node scripts/package-site.mjs"
+  }
+}

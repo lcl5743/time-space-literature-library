@@ -1,0 +1,135 @@
+{
+  "snapshot_date": "2026-10-21",
+  "packaged_at": "2026-10-22",
+  "source_site_commit": "f845ddcbac9e6713007d163dd59c5903bacdf6f3",
+  "website": "https://lcl5743.github.io/time-space-literature-library/",
+  "records": 8442,
+  "abstracts": 7902,
+  "blog_articles": 229,
+  "citation_source": "OpenAlex",
+  "citation_matched": 4843,
+  "excluded": [
+    "RP document",
+    "original Excel scores",
+    "personal browser reading notes",
+    "raw HTML/PDF caches",
+    "credentials",
+    "hosting identity/configuration"
+  ],
+  "coverage": "2010–2026 candidate collection; not exhaustive or fully publication-verified",
+  "dataset_version": "2026.10.22.4",
+  "corrections": [
+    {
+      "date": "2026-10-22",
+      "records": 15,
+      "changes": 21,
+      "fields": [
+        "doi",
+        "arxiv",
+        "main_url",
+        "year"
+      ],
+      "sources": [
+        "Crossref REST API",
+        "arXiv API"
+      ],
+      "summary": "Wrong DOI/arXiv identifiers shared with other papers corrected or removed; one IJCAI 2019 paper re-dated from 2025. Each record keeps a dated note in conflicts.",
+      "log": "docs/review/identifier-corrections-2026-10-22.md",
+      "citations": "data/citations.json unchanged; counts not re-fetched"
+    },
+    {
+      "date": "2026-10-22",
+      "fields_filled": {
+        "abstract": 2335,
+        "doi": 300,
+        "title": 333,
+        "pdf_url": 1256,
+        "arxiv": 219,
+        "official_url": 2838,
+        "authors": 73,
+        "main_url": 40
+      },
+      "sources": [
+        "ICLR/NeurIPS/ICML official conference sites",
+        "CVF Open Access",
+        "ECVA",
+        "IJCAI proceedings",
+        "NeurIPS proceedings",
+        "PMLR",
+        "ACL Anthology",
+        "Crossref REST API",
+        "arXiv API",
+        "OpenAlex API",
+        "Semantic Scholar Graph API"
+      ],
+      "summary": "Empty abstract, author, DOI, arXiv, PDF and page fields filled only from the named sources on an exact normalized title (or the record DOI/arXiv ID with the title confirmed); title formatting fixed with the original title kept in conflicts.",
+      "log": "docs/review/metadata-fill-2026-10-22.md",
+      "citations": "data/citations.json unchanged; counts not re-fetched"
+    },
+    {
+      "date": "2026-10-22",
+      "added_records": 362,
+      "added_in_scope": 255,
+      "added_boundary": 107,
+      "scope_upgrades": 362,
+      "tag_refreshes": 3635,
+      "sources": [
+        "ICLR/NeurIPS/ICML official conference sites",
+        "NeurIPS proceedings",
+        "PMLR",
+        "CVF Open Access",
+        "ECVA",
+        "IJCAI proceedings",
+        "ICLR archive",
+        "DBLP SPARQL (rerun, no change)"
+      ],
+      "summary": "Coverage check of the 15 venues against complete official paper lists with the original title pattern; missing matches added with official metadata and verbatim abstracts; boundary records re-evaluated with the in-scope rule (optional separator in spatiotemporal/time series; LLM/RL trajectory titles stay boundary).",
+      "log": "docs/review/coverage-check-2026-10-22.md",
+      "citations": "new records are unmatched (null) until queried; existing counts unchanged"
+    },
+    {
+      "date": "2026-10-22",
+      "titles": 6,
+      "abstracts": 61,
+      "authors": 9,
+      "fragments_flagged": 10,
+      "summary": "Garbled text repaired: broken titles replaced from official sources, Excel control codes, mojibake, ligatures, soft hyphens, lost punctuation and PDF line-break hyphenation; affiliation-list titles flagged as fragments.",
+      "log": "docs/review/garbled-text-2026-10-22.md"
+    }
+  ],
+  "journal_collection": {
+    "collected_at": "2026-10-25",
+    "start_year": 2010,
+    "cutoff": "2026-10-25",
+    "journals": 52,
+    "researcher_requested_journals": 49,
+    "supplementary_journals": 3,
+    "records": 104889,
+    "abstracts": 30552,
+    "core_four_records": 7648,
+    "core_four_all_topics": true,
+    "primary_sources": [
+      "Crossref publisher-deposited journal metadata",
+      "JMLR official volume directories",
+      "TMLR official accepted-paper directory"
+    ],
+    "supplementary_sources": [
+      "OpenAlex abstracts matched by DOI and exact normalized title within the same journal"
+    ],
+    "scope": "data/journal-scope.json",
+    "processed_records": "data/journals/",
+    "coverage": "Per-journal source pagination and annual returned-record counts; publisher issue reconciliation remains pending except the explicitly enumerated public JMLR/TMLR directories",
+    "citations": "Conference OpenAlex snapshot unchanged; journal Crossref cited-by fields are separately named and excluded from the conference rankings",
+    "raw_cache": "Ignored cache/journals; processed records retain evidence URLs, response hashes and source logs"
+  },
+  "public_sharing_edition": {
+    "version": "1.0.0",
+    "prepared_at": "2026-11-12",
+    "repository": "https://github.com/lcl5743/time-space-literature-library",
+    "data_refresh_performed": false,
+    "privacy_cleanup": {
+      "local_capture_paths_removed": 229,
+      "bibliographic_records_changed": false
+    }
+  }
+}

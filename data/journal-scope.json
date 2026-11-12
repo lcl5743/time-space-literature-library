@@ -1,0 +1,328 @@
+{
+  "start_year": 2010,
+  "cutoff": "2026-10-25",
+  "scope_status": "Reconciled to the journal names supplied by the researcher on 2026-10-25; 49 requested journals plus 3 clearly marked supplementary venues.",
+  "inclusion": "All Crossref journal-article records in the declared publication-date window; no topic exclusion. Editorials, discussions, corrections and reviews remain explicitly distinguishable candidates.",
+  "journals": [
+    {
+      "id": "aos",
+      "title": "The Annals of Statistics",
+      "issn": "0090-5364",
+      "core": true,
+      "official_url": "https://imstat.org/journals-and-publications/annals-of-statistics/",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "jasa",
+      "title": "Journal of the American Statistical Association",
+      "issn": "0162-1459",
+      "core": true,
+      "official_url": "https://www.tandfonline.com/journals/uasa20",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "jrssb",
+      "title": "Journal of the Royal Statistical Society Series B Statistical Methodology",
+      "issn": "1369-7412",
+      "core": true,
+      "official_url": "https://academic.oup.com/jrsssb",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "biometrika",
+      "title": "Biometrika",
+      "issn": "0006-3444",
+      "core": true,
+      "official_url": "https://academic.oup.com/biomet",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "aoas",
+      "title": "The Annals of Applied Statistics",
+      "issn": "1932-6157",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "statsci",
+      "title": "Statistical Science",
+      "issn": "0883-4237",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "bernoulli",
+      "title": "Bernoulli",
+      "issn": "1350-7265",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "bayesian",
+      "title": "Bayesian Analysis",
+      "issn": "1936-0975",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "ejs",
+      "title": "Electronic Journal of Statistics",
+      "issn": "1935-7524",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "jrssa",
+      "title": "Journal of the Royal Statistical Society Series A Statistics in Society",
+      "issn": "0964-1998",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "jrssc",
+      "title": "Journal of the Royal Statistical Society Series C Applied Statistics",
+      "issn": "0035-9254",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "biometrics",
+      "title": "Biometrics",
+      "issn": "0006-341X",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "biostatistics",
+      "title": "Biostatistics",
+      "issn": "1465-4644",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "jcgs",
+      "title": "Journal of Computational and Graphical Statistics",
+      "issn": "1061-8600",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "technometrics",
+      "title": "Technometrics",
+      "issn": "0040-1706",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "statcomp",
+      "title": "Statistics and Computing",
+      "issn": "0960-3174",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "sinica",
+      "title": "Statistica Sinica",
+      "issn": "1017-0405",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "scand",
+      "title": "Scandinavian Journal of Statistics",
+      "issn": "0303-6898",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "environmetrics",
+      "title": "Environmetrics",
+      "issn": "1180-4009",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "spatial",
+      "title": "Spatial Statistics",
+      "issn": "2211-6753",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "jtsa",
+      "title": "Journal of Time Series Analysis",
+      "issn": "0143-9782",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "jci",
+      "title": "Journal of Causal Inference",
+      "issn": "2193-3685",
+      "scope_origin": "supplementary"
+    },
+    {
+      "id": "econometrica",
+      "title": "Econometrica",
+      "issn": "0012-9682",
+      "scope_origin": "supplementary"
+    },
+    {
+      "id": "joecon",
+      "title": "Journal of Econometrics",
+      "issn": "0304-4076",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "econometric-theory",
+      "title": "Econometric Theory",
+      "issn": "0266-4666",
+      "scope_origin": "supplementary"
+    },
+    {
+      "id": "jbes",
+      "title": "Journal of Business & Economic Statistics",
+      "issn": "0735-0015",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "csda",
+      "title": "Computational Statistics & Data Analysis",
+      "issn": "0167-9473",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "jmva",
+      "title": "Journal of Multivariate Analysis",
+      "issn": "0047-259X",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "ijf",
+      "title": "International Journal of Forecasting",
+      "issn": "0169-2070",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "test",
+      "title": "TEST",
+      "issn": "1133-0686",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "jforecast",
+      "title": "Journal of Forecasting",
+      "issn": "0277-6693",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "jss",
+      "title": "Journal of Statistical Software",
+      "issn": "1548-7660",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "appliedstats",
+      "title": "Journal of Applied Statistics",
+      "issn": "0266-4763",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "statpapers",
+      "title": "Statistical Papers",
+      "issn": "0932-5026",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "statprobletters",
+      "title": "Statistics & Probability Letters",
+      "issn": "0167-7152",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "comm-theory",
+      "title": "Communications in Statistics - Theory and Methods",
+      "issn": "0361-0926",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "comm-simulation",
+      "title": "Communications in Statistics - Simulation and Computation",
+      "issn": "0361-0918",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "statcompsim",
+      "title": "Journal of Statistical Computation and Simulation",
+      "issn": "0094-9655",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "nonparametric",
+      "title": "Journal of Nonparametric Statistics",
+      "issn": "1048-5252",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "statmethodsapps",
+      "title": "Statistical Methods & Applications",
+      "issn": "1618-2510",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "metrika",
+      "title": "Metrika",
+      "issn": "0026-1335",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "aism",
+      "title": "Annals of the Institute of Statistical Mathematics",
+      "issn": "0020-3157",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "aop",
+      "title": "The Annals of Probability",
+      "issn": "0091-1798",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "aoap",
+      "title": "The Annals of Applied Probability",
+      "issn": "1050-5164",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "ptrf",
+      "title": "Probability Theory and Related Fields",
+      "issn": "0178-8051",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "spa",
+      "title": "Stochastic Processes and their Applications",
+      "issn": "0304-4149",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "jmlr",
+      "title": "Journal of Machine Learning Research",
+      "issn": "1532-4435",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "machine-learning",
+      "title": "Machine Learning",
+      "issn": "0885-6125",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "tpami",
+      "title": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "issn": "0162-8828",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "tmlr",
+      "title": "Transactions on Machine Learning Research",
+      "issn": "2835-8856",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "annualstats",
+      "title": "Annual Review of Statistics and Its Application",
+      "issn": "2326-8298",
+      "scope_origin": "researcher-list"
+    },
+    {
+      "id": "siamreview",
+      "title": "SIAM Review",
+      "issn": "0036-1445",
+      "scope_origin": "researcher-list"
+    }
+  ]
+}
