@@ -1,10 +1,10 @@
 # Coverage and snapshot dates
 
-The sharing edition was prepared on 12 November 2026 from the October snapshot. The thematic collection was then updated on 13 November 2026 from 13 newly published source articles; the journal collection is limited to 25 October 2026.
+The sharing edition was prepared on 12 November 2026 from the October snapshot. The thematic collection was then updated on 13 November 2026 from 13 newly published source articles and on 14 November 2026 from a key-paper check; the journal collection is limited to 25 October 2026.
 
 ## Thematic collection
 
-8,556 candidate records; 7,934 abstracts; 4,843 OpenAlex citation matches. The 114 records added on 13 November 2026 have no citation count yet. The citation snapshot is dated 21 October 2026. Conference/year source coverage and discovery receipts are included in `data/library.json`. 161 extraction fragments are retained for reconciliation and hidden by default.
+8,678 candidate records; 8,027 abstracts; 4,843 OpenAlex citation matches. The 236 records added on 13 and 14 November 2026 have no citation count yet. The citation snapshot is dated 21 October 2026. Conference/year source coverage and discovery receipts are included in `data/library.json`. 161 extraction fragments are retained for reconciliation and hidden by default.
 
 ### Update of 13 November 2026
 
@@ -16,6 +16,33 @@ The source article directory grew from 229 to 242 articles. Eight of the 13 new 
 | ICLR 2027 time series (three articles); spatio-temporal (two articles) | 82 | 82 | Submissions under review before rebuttal: title, OpenReview link and keywords only |
 
 The ICLR 2027 entries are not accepted papers. They carry the status “投稿/抢先清单；未确认录用”, no authors and no abstracts; review scores quoted in the articles are not stored. EMNLP is outside the 15 systematically screened venues, so only the listed papers were added. Five articles on LLMs and graphs and one model announcement are indexed without paper records.
+
+### Key-paper check of 14 November 2026
+
+Three reading lists were compared with the collection: two researcher-supplied tutorial lists (time series; causal inference, with a module table), the reference list of the survey arXiv:2603.19899v2, and a list of 95 widely used papers compiled for this check.
+
+| List | Papers | Already present | Added |
+| --- | ---: | ---: | ---: |
+| Tutorial lists | 70 | 40 | 30 |
+| Survey references with a parsed title | 252 | 141 | 52 |
+| Key-paper list | 95 | 50 | 40 |
+
+122 records were added in total. Three papers appear in two lists and are counted once, in the first list that names them.
+
+The missing papers follow from how the collection was built: source articles plus a title screen of 15 conferences.
+
+| Why the paper was missing | Added |
+| --- | ---: |
+| Journal article (20 of them already in the journal collection, which the main search does not cover) | 75 |
+| Preprint or workshop paper | 20 |
+| Conference outside the 15 screened venues (AISTATS, UAI, CLeaR, ICASSP, SIGIR, workshops) | 15 |
+| Screened conference, but the title has no time-series or spatio-temporal term, or the paper is in a separately published track | 12 |
+
+98 of the added records are confirmed by a publisher DOI record or an official proceedings page, 4 by an official conference listing only, and 20 are preprints with the arXiv record as their evidence. 93 have an abstract. 14 causal-inference papers without a time-series signal are in scope because the researcher's lists name them as key papers, and 6 were placed in scope after a manual title check; each carries a `scope` note in its evidence.
+
+Not added: 53 survey references that are general background (for example sequence-model and generative-model papers), predate 2010, or have no topic term in the title; and 4 titles for which no matching record was found in Crossref, arXiv or official listings.
+
+This check is a list comparison, not a systematic screen. Journals outside the journal collection, AISTATS, UAI and TMLR have not been screened year by year.
 
 ## Journal inventory
 

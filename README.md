@@ -8,7 +8,7 @@ A bilingual literature index for time-series analysis, spatiotemporal modelling,
 
 | Collection | Records | With abstracts | Snapshot |
 | --- | ---: | ---: | --- |
-| Time-series and spatiotemporal research | 8,556 | 7,934 | 13 November 2026 |
+| Time-series and spatiotemporal research | 8,678 | 8,027 | 14 November 2026 |
 | Statistics and related journals, 52 titles | 104,889 | 30,552 | 25 October 2026 |
 | Core four statistics journals, included above | 7,648 | 7,453 | 25 October 2026 |
 
@@ -63,4 +63,4 @@ See [the data guide](docs/DATA.md), [coverage](docs/COVERAGE.md) and [methods](d
 
 Collection is not evidence of full-text reading or complete publication verification. Publisher issue reconciliation and some abstracts remain incomplete. Topic labels are automatic search aids. Source abstracts, extracted passages and generated Chinese overviews are stored separately; overviews are not source evidence. Citation counts include self-citations, are snapshot-specific and do not measure scientific quality.
 
-Bibliographic metadata and abstracts retain their original rights; see [NOTICE.md](NOTICE.md). Release `v1.0.0` is the public sharing edition dated 12 November 2026, not a new literature harvest. The 13 November 2026 update added 114 records from 13 newly indexed articles: 32 EMNLP 2026 papers and 82 ICLR 2027 submissions that are still under review.
+Bibliographic metadata and abstracts retain their original rights; see [NOTICE.md](NOTICE.md). Release `v1.0.0` is the public sharing edition dated 12 November 2026, not a new literature harvest. The 13 November 2026 update added 114 records from 13 newly indexed articles: 32 EMNLP 2026 papers and 82 ICLR 2027 submissions that are still under review. The 14 November 2026 update added 122 key papers that the conference screening could not reach: journal articles, papers from other venues, preprints and causal-inference papers named in researcher-supplied reading lists.
