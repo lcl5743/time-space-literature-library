@@ -2,9 +2,9 @@
   "meta": {
     "source": "OpenAlex",
     "retrieved_at": "2026-10-21T13:05:01.038955+00:00",
-    "records": 8556,
+    "records": 8678,
     "matched": 4843,
-    "unknown": 3713,
+    "unknown": 3835,
     "requests": 556,
     "rate_limited_requests": 346,
     "failed_requests": 347,
@@ -158260,6 +158260,738 @@
       "status": "unmatched",
       "source": "OpenAlex",
       "note": "Added 2026-11-13 after the citation snapshot; not queried yet"
+    },
+    "P-9723E7DC75FB": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-0E415B819738": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-206914E1602A": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-6D0FDA7F00C6": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-D73357157F76": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-D89FC1445C6B": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-806631624C9C": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-E1FBCF363193": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-7C34A87BC224": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-7A859AD6D0C8": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-A4682DCE529E": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-9CA9960ED0B4": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-7EA6E19E630C": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-0FD89EABD946": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-2FD6D1C9411A": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-6B3CBEBD4C62": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-497BCE46E00A": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-E8F5128935D1": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-0EC3F516A1C3": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-A8002CB6BAF7": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-38E085FCE201": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-60F83A0FE29F": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-6A78AF42E62B": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-BDDF7DAF55E5": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-FD50B1391072": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-92B3C390A753": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-97AFA38FEC58": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-145BC7EDB4A1": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-2582306EFC89": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-414349CBBE02": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-717458859548": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-F548143BD406": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-E5F4616A3E8A": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-E661DCF3AB90": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-3545171C5087": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-4A6330A46A06": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-AE76CA1F4579": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-5787F72BEFFD": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-0D6E52F8DB41": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-90DA8013509D": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-719881FF6851": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-16A10AABDE8D": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-0DC81B4130EA": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-51E2A9C628A9": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-B4CC1D7D83F2": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-A5EC69F56F50": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-93F519AA99DA": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-FD03F040C443": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-B2D3268E42FA": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-4664BABF8C14": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-BFB317F9FA07": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-A73E4047DAB1": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-4581F2197D67": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-F94E229DC6E1": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-6AB612E822EC": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-109FD0A56B3C": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-6D1CA1F9569D": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-01C9428B0F2A": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-FBF600BBED1F": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-D5CBD670C9B1": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-4F0542F4B093": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-9E9B309BDAC6": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-0AB4A1326A44": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-552830912CDE": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-4EA0C5C0D5FF": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-BEA0ACDB8583": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-CB415DDA805A": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-A8D233389957": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-C9368F4B2AF0": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-0CA64354E1F5": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-D9345580B56A": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-DDCF03AF0882": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-3120C7BFC71C": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-BE41D4E54644": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-113F92D4EC33": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-1180A81C6E06": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-CBDE16BEDE71": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-0E95A2104AF7": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-18C31257C07E": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-35A45A937E87": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-636F71C49B5D": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-6F75474BDF6C": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-457CAD6723E1": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-FBBB979B055C": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-92AEF6DEF6C4": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-71BEB51469A0": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-6353FDC55681": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-334988F67094": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-C1435E092F05": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-05D9710D54EC": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-F47E886B7913": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-4F49FB7489CB": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-9529FF55DC71": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-97CB4FF9D5D3": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-97596252704B": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-5329AB0BF988": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-55C4FEC84926": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-6008513E7B52": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-2E8B017590C7": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-75965A98BAA2": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-E938E45AA9D6": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-16A5960EEBC6": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-6B025812A07F": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-0AB29D44A37F": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-DBFBDB515C4B": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-BBD681C8CB54": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-4DD03400A7AE": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-C2214CBE7B9C": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-5B6903A8DF83": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-E0B4DDC5AB17": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-9FF81BAAA2D9": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-8DC1E7747813": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-6AAB89075CA2": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-B10DFC39E566": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-3AD85E5C4DB9": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-31983F2A6102": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-4EBDEE5B49CB": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-4F3BC962DD53": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-8295A5BEC57B": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-DA9DB4B24448": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-B4CD680DDD72": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
+    },
+    "P-71E876D6456C": {
+      "cited_by_count": null,
+      "status": "unmatched",
+      "source": "OpenAlex",
+      "note": "Added 2026-11-14 after the citation snapshot; not queried yet"
     }
   }
 }

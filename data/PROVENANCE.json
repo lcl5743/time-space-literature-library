@@ -1,10 +1,10 @@
 {
-  "snapshot_date": "2026-11-13",
+  "snapshot_date": "2026-11-14",
   "packaged_at": "2026-10-22",
   "source_site_commit": "f845ddcbac9e6713007d163dd59c5903bacdf6f3",
   "website": "https://lcl5743.github.io/time-space-literature-library/",
-  "records": 8556,
-  "abstracts": 7934,
+  "records": 8678,
+  "abstracts": 8027,
   "blog_articles": 242,
   "citation_source": "OpenAlex",
   "citation_matched": 4843,
@@ -16,8 +16,8 @@
     "credentials",
     "hosting identity/configuration"
   ],
-  "coverage": "2010–2026 candidate collection, plus ICLR 2027 submissions listed by the blogger before rebuttal; not exhaustive or fully publication-verified",
-  "dataset_version": "2026.11.13.1",
+  "coverage": "2010–2026 candidate collection, ICLR 2027 submissions listed before rebuttal, and key papers from reading lists; not exhaustive or fully publication-verified",
+  "dataset_version": "2026.11.14.1",
   "corrections": [
     {
       "date": "2026-10-22",
@@ -110,6 +110,57 @@
         "ACL Anthology metadata repository (2026.emnlp.xml, 2026.findings.xml)"
       ],
       "summary": "Eight of the 13 new articles are in scope. The 33 EMNLP 2026 papers they list were matched to ACL Anthology records by Anthology ID and exact normalized title; titles, authors, abstracts, DOIs and links come from the Anthology, keywords and code links from the articles. One of them was already present as EMNLP 2025 from an earlier article title and was re-dated to 2026 with a dated note in conflicts. The 82 ICLR 2027 entries are anonymous submissions under review: title, OpenReview link and the blogger's keywords only; no authors, abstracts or review scores are stored, and OpenReview was not queried because it required a verification challenge. Five LLM-and-graph articles and one model announcement are indexed without paper records.",
+      "citations": "new records are unmatched (null) until queried; existing counts unchanged"
+    },
+    {
+      "date": "2026-11-14",
+      "added_records": 122,
+      "lists_checked": {
+        "researcher_tutorial_lists": {
+          "papers": 70,
+          "present": 40,
+          "added": 30
+        },
+        "survey_arxiv_2603.19899v2_references": {
+          "papers": 252,
+          "present": 141,
+          "added": 52
+        },
+        "key_paper_list": {
+          "papers": 95,
+          "present": 50,
+          "added": 40
+        }
+      },
+      "added_by_reason": {
+        "journal_article": 75,
+        "preprint_or_workshop": 20,
+        "conference_outside_screened_venues": 15,
+        "screened_conference_without_topic_term_or_separate_track": 12
+      },
+      "verification": {
+        "publisher_doi_or_official_proceedings": 98,
+        "official_conference_listing_only": 4,
+        "arxiv_record_only": 20
+      },
+      "scope_notes": {
+        "researcher_designated": 14,
+        "manual_title_check": 6
+      },
+      "not_added": {
+        "survey_background_pre2010_or_no_topic_term": 53,
+        "no_matching_source_record": 4
+      },
+      "sources": [
+        "Crossref REST API",
+        "arXiv API",
+        "PMLR volume indexes",
+        "NeurIPS proceedings",
+        "ICLR/ICML/NeurIPS official conference listings",
+        "this repository's journal collection",
+        "OpenAlex API (title lookup only)"
+      ],
+      "summary": "List comparison by normalized title; a paper is added only when a source returns the same title, with venue and year taken from that source. Code links come from the researcher's lists and are not checked. Not a systematic screen of journals or further venues.",
       "citations": "new records are unmatched (null) until queried; existing counts unchanged"
     }
   ],

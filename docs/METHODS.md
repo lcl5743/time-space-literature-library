@@ -10,6 +10,10 @@ Official conference and publisher pages take precedence for publication status. 
 
 New articles in the retained article index are read in a browser session and their numbered entries are parsed mechanically. A listed paper is added with official metadata when the article links an official record and the titles match after normalization; otherwise it stays a title-level candidate with the article as its only evidence. Submissions under review are labelled as such, and no authors, abstracts or review scores are inferred for them.
 
+### Key-paper checks
+
+Reading lists and survey reference lists are compared with the collection by normalized title. A missing paper is added only when a bibliographic source returns the same title: a Crossref record for a publisher DOI, an official proceedings or conference listing, the journal collection, or the arXiv record. Venue and year come from that source, not from the list. Abstracts are taken from the publisher deposit, the official page or the arXiv version, and the evidence names which. A paper that no source confirms is left out.
+
 ## Conference deadlines
 
 Deadlines are copied from the community-maintained ccfddl/ccf-deadlines list at one pinned commit and are not checked edition by edition. See [DEADLINES.md](DEADLINES.md).
