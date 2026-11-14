@@ -13,6 +13,8 @@ The repository and its versioned releases contain the structured metadata used b
 | `data/citations.json` | OpenAlex matching evidence and citation snapshot |
 | `data/boundary_candidates.json` | Retained topic-boundary candidates |
 | `data/journal-scope.json` | Journal identities, ISSNs and declared date range |
+| `data/deadlines.json` | Conference deadlines by venue and edition; see [DEADLINES.md](DEADLINES.md) |
+| `data/deadline-scope.json` | Venues tracked on the deadlines page and their source files |
 | `data/PROVENANCE.json` | Source and processing history |
 
 ## Main fields
@@ -47,6 +49,6 @@ Reading lists and notes are browser-local. Collecting a record does not mark it 
 
 ## Integrity and versioning
 
-`data/MANIFEST.sha256` records hashes of the data files in this release. The public sharing edition updates the hosting URL in provenance metadata; 229 local cache paths are replaced by non-local capture references. Paper records, source URLs, coverage and citation data are unchanged from the October snapshot.
+`data/MANIFEST.sha256` records hashes of the data files in this release; `npm run manifest` rewrites it after a data change and the tests compare it with the files. The public sharing edition updates the hosting URL in provenance metadata; 229 local cache paths are replaced by non-local capture references. Paper records, source URLs, coverage and citation data are unchanged from the October snapshot.
 
 The collections may overlap. Do not report their sum as a deduplicated number of unique papers. Data updates should retain source dates, identifiers, version relations and an explicit change record.

@@ -2,7 +2,7 @@
 window.siteLanguage=new URLSearchParams(location.search).get('lang')||'zh';try{if(!new URLSearchParams(location.search).has('lang'))window.siteLanguage=localStorage.getItem('time-space-language')||'zh'}catch{}
 if(!['en','zh'].includes(window.siteLanguage))window.siteLanguage='zh';
 const translations={
-'统计期刊':'Statistics journals',
+'统计期刊':'Statistics journals','投稿截止':'Deadlines',
 'Causal / 因果分类':'Causal category',
 '阅读清单':'Reading list','数据概况与采集说明':'Dataset status & collection notes','条候选':'candidates',
 'DBLP批量题名检索已执行；摘要语义筛选未穷尽':'DBLP title screening completed; abstract-level screening is not exhaustive',

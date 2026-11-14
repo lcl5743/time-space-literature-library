@@ -1,11 +1,11 @@
 {
-  "snapshot_date": "2026-10-21",
+  "snapshot_date": "2026-11-13",
   "packaged_at": "2026-10-22",
   "source_site_commit": "f845ddcbac9e6713007d163dd59c5903bacdf6f3",
   "website": "https://lcl5743.github.io/time-space-literature-library/",
-  "records": 8442,
-  "abstracts": 7902,
-  "blog_articles": 229,
+  "records": 8556,
+  "abstracts": 7934,
+  "blog_articles": 242,
   "citation_source": "OpenAlex",
   "citation_matched": 4843,
   "excluded": [
@@ -16,8 +16,8 @@
     "credentials",
     "hosting identity/configuration"
   ],
-  "coverage": "2010–2026 candidate collection; not exhaustive or fully publication-verified",
-  "dataset_version": "2026.10.22.4",
+  "coverage": "2010–2026 candidate collection, plus ICLR 2027 submissions listed by the blogger before rebuttal; not exhaustive or fully publication-verified",
+  "dataset_version": "2026.11.13.1",
   "corrections": [
     {
       "date": "2026-10-22",
@@ -95,6 +95,22 @@
       "fragments_flagged": 10,
       "summary": "Garbled text repaired: broken titles replaced from official sources, Excel control codes, mojibake, ligatures, soft hyphens, lost punctuation and PDF line-break hyphenation; affiliation-list titles flagged as fragments.",
       "log": "docs/review/garbled-text-2026-10-22.md"
+    },
+    {
+      "date": "2026-11-13",
+      "blog_articles_added": 13,
+      "added_records": 114,
+      "added_emnlp_2026": 32,
+      "added_iclr_2027_submissions": 82,
+      "added_in_scope": 106,
+      "added_boundary": 8,
+      "existing_records_updated": 1,
+      "sources": [
+        "no1wds article directory (242 articles on 2026-11-13) and the 13 articles published 2026-10-21 to 2026-11-12",
+        "ACL Anthology metadata repository (2026.emnlp.xml, 2026.findings.xml)"
+      ],
+      "summary": "Eight of the 13 new articles are in scope. The 33 EMNLP 2026 papers they list were matched to ACL Anthology records by Anthology ID and exact normalized title; titles, authors, abstracts, DOIs and links come from the Anthology, keywords and code links from the articles. One of them was already present as EMNLP 2025 from an earlier article title and was re-dated to 2026 with a dated note in conflicts. The 82 ICLR 2027 entries are anonymous submissions under review: title, OpenReview link and the blogger's keywords only; no authors, abstracts or review scores are stored, and OpenReview was not queried because it required a verification challenge. Five LLM-and-graph articles and one model announcement are indexed without paper records.",
+      "citations": "new records are unmatched (null) until queried; existing counts unchanged"
     }
   ],
   "journal_collection": {
@@ -131,5 +147,16 @@
       "local_capture_paths_removed": 229,
       "bibliographic_records_changed": false
     }
+  },
+  "deadlines": {
+    "retrieved_at": "2026-11-14T00:03:31Z",
+    "source": "https://github.com/ccfddl/ccf-deadlines",
+    "source_commit": "dae323c710347eb3d7dd40c5a29acb07229bb4a5",
+    "license": "MIT",
+    "venues": 27,
+    "editions": 172,
+    "scope": "data/deadline-scope.json",
+    "verification": "Community-maintained dates copied without per-edition checks against the calls for papers; CVPR 2027 and SIGIR 2027 were compared with their official pages on 2026-11-14",
+    "refresh": "npm run deadlines:collect"
   }
 }

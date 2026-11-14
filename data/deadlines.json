@@ -1,0 +1,4886 @@
+{
+ "schema": 1,
+ "retrieved_at": "2026-11-14T00:03:31Z",
+ "source": {
+  "name": "ccfddl/ccf-deadlines",
+  "url": "https://github.com/ccfddl/ccf-deadlines",
+  "license": "MIT",
+  "kind": "community-maintained",
+  "commit": "dae323c710347eb3d7dd40c5a29acb07229bb4a5",
+  "commit_url": "https://github.com/ccfddl/ccf-deadlines/tree/dae323c710347eb3d7dd40c5a29acb07229bb4a5"
+ },
+ "note": "Deadlines are copied from a community-maintained list and are not verified against each call for papers. The official link of every edition is the authority.",
+ "venues": [
+  {
+   "id": "neurips",
+   "name": "NeurIPS",
+   "full_name": "Conference on Neural Information Processing Systems",
+   "area": "ml",
+   "coverage": true,
+   "rank": {
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "source_file": "conference/AI/nips.yml",
+   "editions": [
+    {
+     "year": 2021,
+     "official_url": "https://neurips.cc/Conferences/2021/",
+     "timezone": "UTC+0",
+     "conference_dates": "December 7-10, 2021",
+     "place": "Virtual",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2021-05-21 20:00:00",
+        "utc": "2021-05-21T20:00:00Z"
+       },
+       "paper": {
+        "local": "2021-05-28 20:00:00",
+        "utc": "2021-05-28T20:00:00Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "official_url": "https://neurips.cc/Conferences/2022",
+     "timezone": "UTC+0",
+     "conference_dates": "November 28-December 1 (In-person) and December 6-8 (Virtual), 2022",
+     "place": "New Orleans, Louisiana, USA (Hybrid)",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2022-05-16 20:00:00",
+        "utc": "2022-05-16T20:00:00Z"
+       },
+       "paper": {
+        "local": "2022-05-19 20:00:00",
+        "utc": "2022-05-19T20:00:00Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "official_url": "https://neurips.cc/Conferences/2023",
+     "timezone": "UTC+0",
+     "conference_dates": "December 12-14, 2023",
+     "place": "New Orleans, Louisiana, USA",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2023-05-11 20:00:00",
+        "utc": "2023-05-11T20:00:00Z"
+       },
+       "paper": {
+        "local": "2023-05-17 20:00:00",
+        "utc": "2023-05-17T20:00:00Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "official_url": "https://neurips.cc/Conferences/2024",
+     "timezone": "UTC+0",
+     "conference_dates": "December 11-13, 2024",
+     "place": "Vancouver, Canada",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2024-05-15 20:00:00",
+        "utc": "2024-05-15T20:00:00Z"
+       },
+       "paper": {
+        "local": "2024-05-22 20:00:00",
+        "utc": "2024-05-22T20:00:00Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "official_url": "https://neurips.cc/Conferences/2025",
+     "timezone": "AoE",
+     "conference_dates": "December 3-5 (San Diego and Mexico City), 2025",
+     "place": "San Diego Convention Center, USA; Mexico City, Mexico",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2025-05-11 23:59:59",
+        "utc": "2025-05-12T11:59:59Z"
+       },
+       "paper": {
+        "local": "2025-05-15 23:59:59",
+        "utc": "2025-05-16T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "official_url": "https://neurips.cc/Conferences/2026",
+     "timezone": "UTC+0",
+     "conference_dates": "December 8-10 (Sydney), December 9-11 (Atlanta and Paris), 2026",
+     "place": "Sydney, Australia; Atlanta, USA; Paris, France",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2026-05-05 11:59:00",
+        "utc": "2026-05-05T11:59:00Z"
+       },
+       "paper": {
+        "local": "2026-05-07 11:59:59",
+        "utc": "2026-05-07T11:59:59Z"
+       },
+       "decision": {
+        "local": "2026-09-25 11:59:59",
+        "utc": "2026-09-25T11:59:59Z"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "icml",
+   "name": "ICML",
+   "full_name": "International Conference on Machine Learning",
+   "area": "ml",
+   "coverage": true,
+   "rank": {
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "source_file": "conference/AI/icml.yml",
+   "editions": [
+    {
+     "year": 2021,
+     "official_url": "https://icml.cc/Conferences/2021",
+     "timezone": "UTC-12",
+     "conference_dates": "July 18-24, 2021",
+     "place": "Virtual conference",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2021-01-28 23:59:59",
+        "utc": "2021-01-29T11:59:59Z"
+       },
+       "paper": {
+        "local": "2021-02-04 23:59:59",
+        "utc": "2021-02-05T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "official_url": "https://icml.cc/Conferences/2022",
+     "timezone": "UTC-12",
+     "conference_dates": "July 17-23, 2022",
+     "place": "Baltimore, Maryland USA",
+     "rounds": [
+      {
+       "label": "Mandatory abstract deadline on Jan 20, 2022.",
+       "abstract": {
+        "local": "2022-01-20 23:59:59",
+        "utc": "2022-01-21T11:59:59Z"
+       },
+       "paper": {
+        "local": "2022-01-27 23:59:59",
+        "utc": "2022-01-28T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "official_url": "https://icml.cc/Conferences/2023",
+     "timezone": "UTC-12",
+     "conference_dates": "July 23-29, 2023",
+     "place": "Hawaii Convention Center,Hawaii, USA",
+     "rounds": [
+      {
+       "label": "Single paper deadline at 15:00 EST; no separate abstract deadline.",
+       "paper": {
+        "local": "2023-01-26 07:59:59",
+        "utc": "2023-01-26T19:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "official_url": "https://icml.cc/Conferences/2024",
+     "timezone": "UTC-12",
+     "conference_dates": "July 21-27, 2024",
+     "place": "Messe Wien Exhibition Congress Center, Vienna, Austria",
+     "rounds": [
+      {
+       "label": "Paper Submissions Open on OpenReview Jan 09 2024 02:00 PM UTC",
+       "paper": {
+        "local": "2024-02-01 23:59:59",
+        "utc": "2024-02-02T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "official_url": "https://icml.cc/Conferences/2025",
+     "timezone": "UTC-12",
+     "conference_dates": "July 13-19, 2025",
+     "place": "Vancouver Convention Center, Vancouver, Canada",
+     "rounds": [
+      {
+       "label": "Paper Submissions Open on OpenReview Jan 08 2025 11:59 PM UTC",
+       "abstract": {
+        "local": "2025-01-23 23:59:59",
+        "utc": "2025-01-24T11:59:59Z"
+       },
+       "paper": {
+        "local": "2025-01-30 23:59:59",
+        "utc": "2025-01-31T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "official_url": "https://icml.cc/Conferences/2026",
+     "timezone": "UTC+0",
+     "conference_dates": "July 6-11, 2026",
+     "place": "Seoul, Korea",
+     "rounds": [
+      {
+       "label": "Paper Submissions Open on OpenReview Jan 08 2026 12:00AM UTC-0",
+       "abstract": {
+        "local": "2026-01-24 11:59:59",
+        "utc": "2026-01-24T11:59:59Z"
+       },
+       "paper": {
+        "local": "2026-01-29 11:59:59",
+        "utc": "2026-01-29T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2027,
+     "official_url": "https://icml.cc/Conferences/2027",
+     "timezone": "AoE",
+     "conference_dates": "August 2-4, 2027",
+     "place": "Riocentro, Rio de Janeiro, Brazil",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": null,
+        "utc": null,
+        "note": "TBD"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "iclr",
+   "name": "ICLR",
+   "full_name": "International Conference on Learning Representations",
+   "area": "ml",
+   "coverage": true,
+   "rank": {
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "source_file": "conference/AI/iclr.yml",
+   "editions": [
+    {
+     "year": 2021,
+     "official_url": "https://iclr.cc/Conferences/2021",
+     "timezone": "UTC-7",
+     "conference_dates": "May 3-7, 2021",
+     "place": "Virtual conference",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2020-09-28 08:00:00",
+        "utc": "2020-09-28T15:00:00Z"
+       },
+       "paper": {
+        "local": "2020-10-02 08:00:00",
+        "utc": "2020-10-02T15:00:00Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "official_url": "https://iclr.cc/Conferences/2022",
+     "timezone": "UTC-7",
+     "conference_dates": "April 25-29, 2022",
+     "place": "Virtual conference",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2021-09-28 17:00:00",
+        "utc": "2021-09-29T00:00:00Z"
+       },
+       "paper": {
+        "local": "2021-10-05 17:00:00",
+        "utc": "2021-10-06T00:00:00Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "official_url": "https://iclr.cc/Conferences/2023",
+     "timezone": "UTC-12",
+     "conference_dates": "May 01-04, 2023",
+     "place": "Kigali, Rwanda (Hybrid)",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2022-09-21 23:59:59",
+        "utc": "2022-09-22T11:59:59Z"
+       },
+       "paper": {
+        "local": "2022-09-28 23:59:59",
+        "utc": "2022-09-29T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "official_url": "https://iclr.cc/Conferences/2024",
+     "timezone": "UTC-12",
+     "conference_dates": "May 07-10, 2024",
+     "place": "Vienna, Austria",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2023-09-23 23:59:59",
+        "utc": "2023-09-24T11:59:59Z"
+       },
+       "paper": {
+        "local": "2023-09-28 23:59:59",
+        "utc": "2023-09-29T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "official_url": "https://iclr.cc/Conferences/2025",
+     "timezone": "UTC-12",
+     "conference_dates": "April 24-26, 2025",
+     "place": "Singapore",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2024-09-27 23:59:59",
+        "utc": "2024-09-28T11:59:59Z"
+       },
+       "paper": {
+        "local": "2024-10-01 23:59:59",
+        "utc": "2024-10-02T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "official_url": "https://iclr.cc/Conferences/2026",
+     "timezone": "AoE",
+     "conference_dates": "April 23-25, 2026",
+     "place": "Rio de Janeiro, Brazil",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2025-09-19 23:59:59",
+        "utc": "2025-09-20T11:59:59Z"
+       },
+       "paper": {
+        "local": "2025-09-24 23:59:59",
+        "utc": "2025-09-25T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2027,
+     "official_url": "https://iclr.cc/Conferences/2027",
+     "timezone": "AoE",
+     "conference_dates": "April 26-28, 2027",
+     "place": "San Francisco, CA, USA",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2026-09-18 23:59:59",
+        "utc": "2026-09-19T11:59:59Z"
+       },
+       "paper": {
+        "local": "2026-09-25 23:59:59",
+        "utc": "2026-09-26T11:59:59Z"
+       },
+       "rebuttal": {
+        "local": "2026-11-18 23:59:59",
+        "utc": "2026-11-19T11:59:59Z"
+       },
+       "decision": {
+        "local": "2026-12-16 23:59:59",
+        "utc": "2026-12-17T11:59:59Z"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aaai",
+   "name": "AAAI",
+   "full_name": "AAAI Conference on Artificial Intelligence",
+   "area": "ai",
+   "coverage": true,
+   "rank": {
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "source_file": "conference/AI/aaai.yml",
+   "editions": [
+    {
+     "year": 2021,
+     "official_url": "https://aaai.org/Conferences/AAAI-21/",
+     "timezone": "UTC-12",
+     "conference_dates": "February 4-7, 2021",
+     "place": "Virtual",
+     "rounds": [
+      {
+       "label": "Regular round",
+       "abstract": {
+        "local": "2020-09-01 23:59:59",
+        "utc": "2020-09-02T11:59:59Z"
+       },
+       "paper": {
+        "local": "2020-09-09 23:59:59",
+        "utc": "2020-09-10T11:59:59Z"
+       }
+      },
+      {
+       "label": "NeurIPS/EMNLP fast track",
+       "abstract": {
+        "local": "2020-09-29 23:59:59",
+        "utc": "2020-09-30T11:59:59Z"
+       },
+       "paper": {
+        "local": "2020-09-29 23:59:59",
+        "utc": "2020-09-30T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "official_url": "https://aaai.org/Conferences/AAAI-22/",
+     "timezone": "UTC-12",
+     "conference_dates": "February 24-27, 2022",
+     "place": "Virtual",
+     "rounds": [
+      {
+       "label": "Regular round",
+       "abstract": {
+        "local": "2021-08-30 23:59:59",
+        "utc": "2021-08-31T11:59:59Z"
+       },
+       "paper": {
+        "local": "2021-09-08 23:59:59",
+        "utc": "2021-09-09T11:59:59Z"
+       }
+      },
+      {
+       "label": "NeurIPS fast track",
+       "abstract": {
+        "local": "2021-10-01 23:59:59",
+        "utc": "2021-10-02T11:59:59Z"
+       },
+       "paper": {
+        "local": "2021-10-01 23:59:59",
+        "utc": "2021-10-02T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "official_url": "https://www.aaai.org/Conferences/AAAI-23/",
+     "timezone": "UTC-12",
+     "conference_dates": "February 9-12, 2023",
+     "place": "Washington, DC, USA",
+     "rounds": [
+      {
+       "label": "Regular round",
+       "abstract": {
+        "local": "2022-08-08 23:59:59",
+        "utc": "2022-08-09T11:59:59Z"
+       },
+       "paper": {
+        "local": "2022-08-15 23:59:59",
+        "utc": "2022-08-16T11:59:59Z"
+       }
+      },
+      {
+       "label": "NeurIPS fast track",
+       "abstract": {
+        "local": "2022-09-16 23:59:59",
+        "utc": "2022-09-17T11:59:59Z"
+       },
+       "paper": {
+        "local": "2022-09-16 23:59:59",
+        "utc": "2022-09-17T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "official_url": "https://aaai.org/conference/aaai/aaai-24/",
+     "timezone": "UTC-12",
+     "conference_dates": "February 22-25, 2024",
+     "place": "Vancouver, British Columbia, Canada",
+     "rounds": [
+      {
+       "label": "Regular round",
+       "abstract": {
+        "local": "2023-08-08 23:59:59",
+        "utc": "2023-08-09T11:59:59Z"
+       },
+       "paper": {
+        "local": "2023-08-15 23:59:59",
+        "utc": "2023-08-16T11:59:59Z"
+       }
+      },
+      {
+       "label": "NeurIPS fast track",
+       "abstract": {
+        "local": "2023-09-25 23:59:59",
+        "utc": "2023-09-26T11:59:59Z"
+       },
+       "paper": {
+        "local": "2023-09-25 23:59:59",
+        "utc": "2023-09-26T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "official_url": "https://aaai.org/conference/aaai/aaai-25/",
+     "timezone": "UTC-12",
+     "conference_dates": "February 27-March 2, 2025",
+     "place": "PHILADELPHIA, PENNSYLVANIA, USA",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2024-08-07 23:59:59",
+        "utc": "2024-08-08T11:59:59Z"
+       },
+       "paper": {
+        "local": "2024-08-15 23:59:59",
+        "utc": "2024-08-16T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "official_url": "https://aaai.org/conference/aaai/aaai-26/",
+     "timezone": "UTC-12",
+     "conference_dates": "January 22-25, 2026",
+     "place": "Singapore EXPO",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2025-07-25 23:59:59",
+        "utc": "2025-07-26T11:59:59Z"
+       },
+       "paper": {
+        "local": "2025-08-01 23:59:59",
+        "utc": "2025-08-02T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2027,
+     "official_url": "https://aaai.org/conference/aaai/aaai-27/",
+     "timezone": "UTC-12",
+     "conference_dates": "February 16-23, 2027",
+     "place": "Montréal, Québec, Canada",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2026-07-21 23:59:59",
+        "utc": "2026-07-22T11:59:59Z"
+       },
+       "paper": {
+        "local": "2026-07-28 23:59:59",
+        "utc": "2026-07-29T11:59:59Z"
+       },
+       "rebuttal": {
+        "local": "2026-10-31 23:59:59",
+        "utc": "2026-11-01T11:59:59Z"
+       },
+       "decision": {
+        "local": "2026-11-30 23:59:59",
+        "utc": "2026-12-01T11:59:59Z"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ijcai",
+   "name": "IJCAI",
+   "full_name": "International Joint Conference on Artificial Intelligence",
+   "area": "ai",
+   "coverage": true,
+   "rank": {
+    "ccf": "B",
+    "core": "A*",
+    "thcpl": "B"
+   },
+   "source_file": "conference/AI/ijcai.yml",
+   "editions": [
+    {
+     "year": 2021,
+     "official_url": "https://ijcai-21.org/",
+     "timezone": "UTC-12",
+     "conference_dates": "August 23-26, 2021",
+     "place": "Virtual conference",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2021-01-13 23:59:59",
+        "utc": "2021-01-14T11:59:59Z"
+       },
+       "paper": {
+        "local": "2021-01-20 23:59:59",
+        "utc": "2021-01-21T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "official_url": "https://ijcai-22.org",
+     "timezone": "UTC+1",
+     "conference_dates": "July 25-29, 2022",
+     "place": "Vienna, Austria.",
+     "rounds": [
+      {
+       "label": "Abstract: January 7, 23:59 AoE (UTC-12), converted to CET (UTC+1); full paper: January 14, 23:59 CET",
+       "abstract": {
+        "local": "2022-01-08 12:59:00",
+        "utc": "2022-01-08T11:59:00Z"
+       },
+       "paper": {
+        "local": "2022-01-14 23:59:59",
+        "utc": "2022-01-14T22:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "official_url": "https://ijcai-23.org",
+     "timezone": "UTC-12",
+     "conference_dates": "August 22-25, 2023",
+     "place": "Macao, China",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2023-01-11 23:59:59",
+        "utc": "2023-01-12T11:59:59Z"
+       },
+       "paper": {
+        "local": "2023-01-18 23:59:59",
+        "utc": "2023-01-19T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "official_url": "https://ijcai24.org/",
+     "timezone": "UTC-12",
+     "conference_dates": "August 6-9, 2024",
+     "place": "Jeju Island, South Korea.",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2024-01-10 23:59:59",
+        "utc": "2024-01-11T11:59:59Z"
+       },
+       "paper": {
+        "local": "2024-01-17 23:59:59",
+        "utc": "2024-01-18T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "official_url": "https://2025.ijcai.org/",
+     "timezone": "UTC-12",
+     "conference_dates": "August 19-22, 2025",
+     "place": "Montreal, Canada.",
+     "rounds": [
+      {
+       "label": "Separate satellite event: August 29-31, 2025, Guangzhou, China",
+       "abstract": {
+        "local": "2025-01-16 23:59:59",
+        "utc": "2025-01-17T11:59:59Z"
+       },
+       "paper": {
+        "local": "2025-01-23 23:59:59",
+        "utc": "2025-01-24T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "official_url": "https://2026.ijcai.org/",
+     "timezone": "UTC-12",
+     "conference_dates": "August 18-21, 2026",
+     "place": "Bremen, Germany",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2026-01-12 23:59:59",
+        "utc": "2026-01-13T11:59:59Z"
+       },
+       "paper": {
+        "local": "2026-01-19 23:59:59",
+        "utc": "2026-01-20T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2027,
+     "official_url": "https://2027.ijcai.org/",
+     "timezone": "AoE",
+     "conference_dates": "August 7-13, 2027",
+     "place": "Kyoto, Japan",
+     "rounds": [
+      {
+       "label": "Separate satellite event: August 15-17, 2027, Hengqin, China",
+       "abstract": {
+        "local": "2027-01-04 23:59:59",
+        "utc": "2027-01-05T11:59:59Z"
+       },
+       "paper": {
+        "local": "2027-01-11 23:59:59",
+        "utc": "2027-01-12T11:59:59Z"
+       },
+       "rebuttal": {
+        "local": "2027-04-02 23:59:59",
+        "utc": "2027-04-03T11:59:59Z"
+       },
+       "decision": {
+        "local": "2027-04-21 23:59:59",
+        "utc": "2027-04-22T11:59:59Z"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kdd",
+   "name": "KDD",
+   "full_name": "ACM Knowledge Discovery and Data Mining",
+   "area": "data",
+   "coverage": true,
+   "rank": {
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "source_file": "conference/DB/sigkdd.yml",
+   "editions": [
+    {
+     "year": 2021,
+     "official_url": "https://www.kdd.org/kdd2021/",
+     "timezone": "AoE",
+     "conference_dates": "August 14-18, 2021",
+     "place": "Online",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2021-02-08 23:59:59",
+        "utc": "2021-02-09T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "official_url": "https://www.kdd.org/kdd2022/",
+     "timezone": "AoE",
+     "conference_dates": "August 15-18, 2022",
+     "place": "Washington DC Convention Center, USA",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2022-02-10 23:59:59",
+        "utc": "2022-02-11T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "official_url": "https://kdd.org/kdd2023/",
+     "timezone": "AoE",
+     "conference_dates": "August 7-10, 2023",
+     "place": "Long Beach Convention & Entertainment Center, USA",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2023-02-02 23:59:59",
+        "utc": "2023-02-03T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "official_url": "https://kdd2024.kdd.org/research-track-call-for-papers/",
+     "timezone": "AoE",
+     "conference_dates": "August 25-29, 2024",
+     "place": "Barcelona, Spain",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2024-02-01 23:59:59",
+        "utc": "2024-02-02T11:59:59Z"
+       },
+       "paper": {
+        "local": "2024-02-08 23:59:59",
+        "utc": "2024-02-09T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "official_url": "https://kdd2025.kdd.org/",
+     "timezone": "AoE",
+     "conference_dates": "August 3-7, 2025",
+     "place": "Toronto, ON, Canada",
+     "rounds": [
+      {
+       "label": "first round",
+       "abstract": {
+        "local": "2024-08-01 23:59:59",
+        "utc": "2024-08-02T11:59:59Z"
+       },
+       "paper": {
+        "local": "2024-08-08 23:59:59",
+        "utc": "2024-08-09T11:59:59Z"
+       }
+      },
+      {
+       "label": "second round",
+       "abstract": {
+        "local": "2025-02-03 23:59:59",
+        "utc": "2025-02-04T11:59:59Z"
+       },
+       "paper": {
+        "local": "2025-02-10 23:59:59",
+        "utc": "2025-02-11T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "official_url": "https://kdd2026.kdd.org/",
+     "timezone": "AoE",
+     "conference_dates": "August 10-13, 2026",
+     "place": "Jeju, Korea",
+     "rounds": [
+      {
+       "label": "first round",
+       "abstract": {
+        "local": "2025-07-24 23:59:59",
+        "utc": "2025-07-25T11:59:59Z"
+       },
+       "paper": {
+        "local": "2025-07-31 23:59:59",
+        "utc": "2025-08-01T11:59:59Z"
+       }
+      },
+      {
+       "label": "second round",
+       "abstract": {
+        "local": "2026-02-01 23:59:59",
+        "utc": "2026-02-02T11:59:59Z"
+       },
+       "paper": {
+        "local": "2026-02-08 23:59:59",
+        "utc": "2026-02-09T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2027,
+     "official_url": "https://kdd2027.kdd.org/",
+     "timezone": "AoE",
+     "conference_dates": "August 1-5, 2027",
+     "place": "San Jose, California, USA",
+     "rounds": [
+      {
+       "label": "1st round of 2 total rounds",
+       "abstract": {
+        "local": "2026-07-19 23:59:59",
+        "utc": "2026-07-20T11:59:59Z"
+       },
+       "paper": {
+        "local": "2026-07-26 23:59:59",
+        "utc": "2026-07-27T11:59:59Z"
+       },
+       "rebuttal": {
+        "local": "2026-10-13 23:59:59",
+        "utc": "2026-10-14T11:59:59Z"
+       },
+       "decision": {
+        "local": "2026-11-14 23:59:59",
+        "utc": "2026-11-15T11:59:59Z"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "www",
+   "name": "WWW",
+   "full_name": "International World Wide Web Conferences",
+   "area": "data",
+   "coverage": true,
+   "rank": {
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "source_file": "conference/MX/www.yml",
+   "editions": [
+    {
+     "year": 2021,
+     "official_url": "https://www2021.thewebconf.org/",
+     "timezone": "AoE",
+     "conference_dates": "April 19-23, 2021",
+     "place": "Virtual",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2020-10-12 23:59:59",
+        "utc": "2020-10-13T11:59:59Z"
+       },
+       "paper": {
+        "local": "2020-10-19 23:59:59",
+        "utc": "2020-10-20T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "official_url": "https://www2022.thewebconf.org/",
+     "timezone": "AoE",
+     "conference_dates": "April 27-29, 2022",
+     "place": "Virtual",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2021-10-14 23:59:59",
+        "utc": "2021-10-15T11:59:59Z"
+       },
+       "paper": {
+        "local": "2021-10-21 23:59:59",
+        "utc": "2021-10-22T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "official_url": "https://www2023.thewebconf.org/",
+     "timezone": "AoE",
+     "conference_dates": "May 2-4, 2023",
+     "place": "Austin, Texas, USA",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2022-10-06 23:59:59",
+        "utc": "2022-10-07T11:59:59Z"
+       },
+       "paper": {
+        "local": "2022-10-13 23:59:59",
+        "utc": "2022-10-14T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "official_url": "https://www2024.thewebconf.org/",
+     "timezone": "AoE",
+     "conference_dates": "May 15-17, 2024",
+     "place": "Singapore",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2023-10-05 23:59:59",
+        "utc": "2023-10-06T11:59:59Z"
+       },
+       "paper": {
+        "local": "2023-10-12 23:59:59",
+        "utc": "2023-10-13T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "official_url": "https://www2025.thewebconf.org/",
+     "timezone": "AoE",
+     "conference_dates": "April 30 - May 2, 2025",
+     "place": "Sydney, Australia",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2024-10-07 23:59:59",
+        "utc": "2024-10-08T11:59:59Z"
+       },
+       "paper": {
+        "local": "2024-10-14 23:59:59",
+        "utc": "2024-10-15T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "official_url": "https://www2026.thewebconf.org/",
+     "timezone": "AoE",
+     "conference_dates": "July 1-3, 2026",
+     "place": "Dubaï, UAE",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2025-09-30 23:59:59",
+        "utc": "2025-10-01T11:59:59Z"
+       },
+       "paper": {
+        "local": "2025-10-07 23:59:59",
+        "utc": "2025-10-08T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2027,
+     "official_url": "https://www2027.thewebconf.org/",
+     "timezone": "AoE",
+     "conference_dates": "May 10 - 14, 2027",
+     "place": "Dublin, Ireland",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2026-10-18 23:59:59",
+        "utc": "2026-10-19T11:59:59Z"
+       },
+       "paper": {
+        "local": "2026-10-25 23:59:59",
+        "utc": "2026-10-26T11:59:59Z"
+       },
+       "decision": {
+        "local": "2027-01-04 23:59:59",
+        "utc": "2027-01-05T11:59:59Z"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cikm",
+   "name": "CIKM",
+   "full_name": "ACM International Conference on Information and Knowledge Management",
+   "area": "data",
+   "coverage": true,
+   "rank": {
+    "ccf": "B",
+    "core": "A",
+    "thcpl": "B"
+   },
+   "source_file": "conference/DB/cikm.yml",
+   "editions": [
+    {
+     "year": 2020,
+     "official_url": "https://www.cikm2020.org/",
+     "timezone": "UTC-12",
+     "conference_dates": "October 19-23, 2020",
+     "place": "Virtual Event, Ireland",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2020-05-01 23:59:59",
+        "utc": "2020-05-02T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2021,
+     "official_url": "https://www.cikm2021.org/",
+     "timezone": "AoE",
+     "conference_dates": "November 2-4, 2021",
+     "place": "Online",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2021-05-19 23:59:59",
+        "utc": "2021-05-20T11:59:59Z"
+       },
+       "paper": {
+        "local": "2021-05-26 23:59:59",
+        "utc": "2021-05-27T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "official_url": "https://www.cikm2022.org/",
+     "timezone": "AoE",
+     "conference_dates": "October 17-22, 2022",
+     "place": "Atlanta, Georgia, USA",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2022-05-12 23:59:59",
+        "utc": "2022-05-13T11:59:59Z"
+       },
+       "paper": {
+        "local": "2022-05-19 23:59:59",
+        "utc": "2022-05-20T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "official_url": "https://uobevents.eventsair.com/cikm2023/",
+     "timezone": "AoE",
+     "conference_dates": "October 23-25, 2023",
+     "place": "Birmingham, UK",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2023-05-26 23:59:59",
+        "utc": "2023-05-27T11:59:59Z"
+       },
+       "paper": {
+        "local": "2023-06-02 23:59:59",
+        "utc": "2023-06-03T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "official_url": "https://web.archive.org/web/20241108001720/https://cikm2024.org/",
+     "timezone": "AoE",
+     "conference_dates": "October 22-24, 2024",
+     "place": "Boise, Idaho, USA",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2024-05-13 23:59:59",
+        "utc": "2024-05-14T11:59:59Z"
+       },
+       "paper": {
+        "local": "2024-05-20 23:59:59",
+        "utc": "2024-05-21T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "official_url": "https://cikm2025.org",
+     "timezone": "AoE",
+     "conference_dates": "November 11-13, 2025",
+     "place": "Coex, Seoul, Korea",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2025-05-16 23:59:59",
+        "utc": "2025-05-17T11:59:59Z"
+       },
+       "paper": {
+        "local": "2025-05-23 23:59:59",
+        "utc": "2025-05-24T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "official_url": "https://cikm2026.diag.uniroma1.it/",
+     "timezone": "AoE",
+     "conference_dates": "November 9-11, 2026",
+     "place": "Rome, Italy",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2026-05-16 23:59:59",
+        "utc": "2026-05-17T11:59:59Z"
+       },
+       "paper": {
+        "local": "2026-05-23 23:59:59",
+        "utc": "2026-05-24T11:59:59Z"
+       },
+       "decision": {
+        "local": "2026-08-07 23:59:59",
+        "utc": "2026-08-08T11:59:59Z"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "icde",
+   "name": "ICDE",
+   "full_name": "IEEE International Conference on Data Engineering",
+   "area": "data",
+   "coverage": true,
+   "rank": {
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "source_file": "conference/DB/icde.yml",
+   "editions": [
+    {
+     "year": 2021,
+     "official_url": "https://icde2021.gr/",
+     "timezone": "AoE",
+     "conference_dates": "April 20-22, 2021",
+     "place": "Virtual",
+     "rounds": [
+      {
+       "label": "first round",
+       "abstract": {
+        "local": "2020-06-10 23:59:59",
+        "utc": "2020-06-11T11:59:59Z"
+       },
+       "paper": {
+        "local": "2020-06-17 23:59:59",
+        "utc": "2020-06-18T11:59:59Z"
+       }
+      },
+      {
+       "label": "second round",
+       "abstract": {
+        "local": "2020-10-07 23:59:59",
+        "utc": "2020-10-08T11:59:59Z"
+       },
+       "paper": {
+        "local": "2020-10-14 23:59:59",
+        "utc": "2020-10-15T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "official_url": "https://icde2022.ieeecomputer.my/important-dates/",
+     "timezone": "UTC-8",
+     "conference_dates": "May 10-12, 2022",
+     "place": "Virtual",
+     "rounds": [
+      {
+       "label": "first round",
+       "paper": {
+        "local": "2021-07-21 23:59:59",
+        "utc": "2021-07-22T07:59:59Z"
+       }
+      },
+      {
+       "label": "second round",
+       "paper": {
+        "local": "2021-11-19 23:59:59",
+        "utc": "2021-11-20T07:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "official_url": "https://icde2023.ics.uci.edu/",
+     "timezone": "PT",
+     "conference_dates": "April 4-7, 2023",
+     "place": "Anaheim, California, USA",
+     "rounds": [
+      {
+       "label": "first round",
+       "paper": {
+        "local": "2022-04-25 23:59:59",
+        "utc": "2022-04-26T06:59:59Z"
+       }
+      },
+      {
+       "label": "second round",
+       "paper": {
+        "local": "2022-07-08 23:59:59",
+        "utc": "2022-07-09T06:59:59Z"
+       }
+      },
+      {
+       "label": "third round",
+       "paper": {
+        "local": "2022-10-08 23:59:59",
+        "utc": "2022-10-09T06:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "official_url": "https://icde2024.github.io/",
+     "timezone": "AoE",
+     "conference_dates": "May 14-17, 2024",
+     "place": "Utrecht, Netherlands",
+     "rounds": [
+      {
+       "label": "first round",
+       "paper": {
+        "local": "2023-07-28 23:59:59",
+        "utc": "2023-07-29T11:59:59Z"
+       }
+      },
+      {
+       "label": "second round",
+       "paper": {
+        "local": "2023-12-03 23:59:59",
+        "utc": "2023-12-04T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "official_url": "https://ieee-icde.org/2025/",
+     "timezone": "AoE",
+     "conference_dates": "May 20-23, 2025",
+     "place": "Hong Kong, China",
+     "rounds": [
+      {
+       "label": "first round",
+       "paper": {
+        "local": "2024-08-02 23:59:59",
+        "utc": "2024-08-03T11:59:59Z"
+       }
+      },
+      {
+       "label": "second round",
+       "paper": {
+        "local": "2024-11-25 23:59:59",
+        "utc": "2024-11-26T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "official_url": "https://icde2026.github.io/",
+     "timezone": "UTC-7",
+     "conference_dates": "May 5-8, 2026",
+     "place": "Montréal, Canada",
+     "rounds": [
+      {
+       "label": "first round",
+       "paper": {
+        "local": "2025-06-18 17:00:00",
+        "utc": "2025-06-19T00:00:00Z"
+       }
+      },
+      {
+       "label": "second round",
+       "paper": {
+        "local": "2025-10-27 17:00:00",
+        "utc": "2025-10-28T00:00:00Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2027,
+     "official_url": "https://icde2027.github.io/",
+     "timezone": "PT",
+     "conference_dates": "May 17-21, 2027",
+     "place": "Copenhagen, Denmark",
+     "rounds": [
+      {
+       "label": "first round; notification date is approximate",
+       "paper": {
+        "local": "2026-06-11 17:00:00",
+        "utc": "2026-06-12T00:00:00Z"
+       },
+       "rebuttal": {
+        "local": "2026-08-15 17:00:00",
+        "utc": "2026-08-16T00:00:00Z"
+       },
+       "decision": {
+        "local": "2026-09-10 17:00:00",
+        "utc": "2026-09-11T00:00:00Z"
+       }
+      },
+      {
+       "label": "second round; notification date is approximate",
+       "paper": {
+        "local": "2026-11-11 17:00:00",
+        "utc": "2026-11-12T01:00:00Z"
+       },
+       "rebuttal": {
+        "local": "2027-01-15 17:00:00",
+        "utc": "2027-01-16T01:00:00Z"
+       },
+       "decision": {
+        "local": "2027-02-10 17:00:00",
+        "utc": "2027-02-11T01:00:00Z"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sigmod",
+   "name": "SIGMOD",
+   "full_name": "ACM Conference on Management of Data",
+   "area": "data",
+   "coverage": true,
+   "rank": {
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "source_file": "conference/DB/sigmod.yml",
+   "editions": [
+    {
+     "year": 2021,
+     "official_url": "http://2021.sigmod.org/",
+     "timezone": "PT",
+     "conference_dates": "June 22-24, 2021",
+     "place": "Online / Xi'an, China (local event)",
+     "rounds": [
+      {
+       "label": "first round",
+       "paper": {
+        "local": "2020-07-07 17:00:00",
+        "utc": "2020-07-08T00:00:00Z"
+       }
+      },
+      {
+       "label": "second round",
+       "paper": {
+        "local": "2020-09-22 17:00:00",
+        "utc": "2020-09-23T00:00:00Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "official_url": "http://2022.sigmod.org/",
+     "timezone": "PT",
+     "conference_dates": "June 14-16, 2022",
+     "place": "Philadelphia, PA, USA / Online",
+     "rounds": [
+      {
+       "label": "first round",
+       "paper": {
+        "local": "2021-07-02 17:00:00",
+        "utc": "2021-07-03T00:00:00Z"
+       }
+      },
+      {
+       "label": "second round",
+       "paper": {
+        "local": "2021-09-15 17:00:00",
+        "utc": "2021-09-16T00:00:00Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "official_url": "http://2023.sigmod.org/",
+     "timezone": "PT",
+     "conference_dates": "June 20-22, 2023",
+     "place": "Seattle, WA, USA",
+     "rounds": [
+      {
+       "label": "first round",
+       "paper": {
+        "local": "2022-04-15 23:59:59",
+        "utc": "2022-04-16T06:59:59Z"
+       }
+      },
+      {
+       "label": "second round",
+       "paper": {
+        "local": "2022-07-15 23:59:59",
+        "utc": "2022-07-16T06:59:59Z"
+       }
+      },
+      {
+       "label": "third round",
+       "paper": {
+        "local": "2022-10-15 23:59:59",
+        "utc": "2022-10-16T06:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "official_url": "http://2024.sigmod.org/",
+     "timezone": "PT",
+     "conference_dates": "June 11-13, 2024",
+     "place": "Santiago, Chile",
+     "rounds": [
+      {
+       "label": "round 1",
+       "paper": {
+        "local": "2023-01-15 23:59:59",
+        "utc": "2023-01-16T07:59:59Z"
+       }
+      },
+      {
+       "label": "round 2",
+       "paper": {
+        "local": "2023-04-15 23:59:59",
+        "utc": "2023-04-16T06:59:59Z"
+       }
+      },
+      {
+       "label": "round 3",
+       "paper": {
+        "local": "2023-07-15 23:59:59",
+        "utc": "2023-07-16T06:59:59Z"
+       }
+      },
+      {
+       "label": "round 4",
+       "paper": {
+        "local": "2023-10-15 23:59:59",
+        "utc": "2023-10-16T06:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "official_url": "https://2025.sigmod.org/",
+     "timezone": "AoE",
+     "conference_dates": "June 22 and June 24-26, 2025",
+     "place": "Berlin, Germany",
+     "rounds": [
+      {
+       "label": "round 1",
+       "abstract": {
+        "local": "2024-01-10 23:59:59",
+        "utc": "2024-01-11T11:59:59Z"
+       },
+       "paper": {
+        "local": "2024-01-17 23:59:59",
+        "utc": "2024-01-18T11:59:59Z"
+       }
+      },
+      {
+       "label": "round 2",
+       "abstract": {
+        "local": "2024-04-10 23:59:59",
+        "utc": "2024-04-11T11:59:59Z"
+       },
+       "paper": {
+        "local": "2024-04-17 23:59:59",
+        "utc": "2024-04-18T11:59:59Z"
+       }
+      },
+      {
+       "label": "round 3",
+       "abstract": {
+        "local": "2024-07-10 23:59:59",
+        "utc": "2024-07-11T11:59:59Z"
+       },
+       "paper": {
+        "local": "2024-07-17 23:59:59",
+        "utc": "2024-07-18T11:59:59Z"
+       }
+      },
+      {
+       "label": "round 4",
+       "abstract": {
+        "local": "2024-10-10 23:59:59",
+        "utc": "2024-10-11T11:59:59Z"
+       },
+       "paper": {
+        "local": "2024-10-17 23:59:59",
+        "utc": "2024-10-18T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "official_url": "https://2026.sigmod.org/",
+     "timezone": "AoE",
+     "conference_dates": "May 31 and June 2-4, 2026",
+     "place": "Bangalore, India",
+     "rounds": [
+      {
+       "label": "round 1",
+       "abstract": {
+        "local": "2025-01-10 23:59:59",
+        "utc": "2025-01-11T11:59:59Z"
+       },
+       "paper": {
+        "local": "2025-01-17 23:59:59",
+        "utc": "2025-01-18T11:59:59Z"
+       }
+      },
+      {
+       "label": "round 2",
+       "abstract": {
+        "local": "2025-04-10 23:59:59",
+        "utc": "2025-04-11T11:59:59Z"
+       },
+       "paper": {
+        "local": "2025-04-17 23:59:59",
+        "utc": "2025-04-18T11:59:59Z"
+       }
+      },
+      {
+       "label": "round 3",
+       "abstract": {
+        "local": "2025-07-10 23:59:59",
+        "utc": "2025-07-11T11:59:59Z"
+       },
+       "paper": {
+        "local": "2025-07-17 23:59:59",
+        "utc": "2025-07-18T11:59:59Z"
+       }
+      },
+      {
+       "label": "round 4",
+       "abstract": {
+        "local": "2025-10-10 23:59:59",
+        "utc": "2025-10-11T11:59:59Z"
+       },
+       "paper": {
+        "local": "2025-10-17 23:59:59",
+        "utc": "2025-10-18T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2027,
+     "official_url": "https://2027.sigmod.org/",
+     "timezone": "AoE",
+     "conference_dates": "June 13-19, 2027",
+     "place": "Huntington Beach, CA, USA",
+     "rounds": [
+      {
+       "label": "round 1",
+       "abstract": {
+        "local": "2026-01-10 23:59:59",
+        "utc": "2026-01-11T11:59:59Z"
+       },
+       "paper": {
+        "local": "2026-01-17 23:59:59",
+        "utc": "2026-01-18T11:59:59Z"
+       },
+       "rebuttal": {
+        "local": "2026-03-17 23:59:59",
+        "utc": "2026-03-18T11:59:59Z"
+       },
+       "decision": {
+        "local": "2026-06-12 23:59:59",
+        "utc": "2026-06-13T11:59:59Z"
+       }
+      },
+      {
+       "label": "round 2",
+       "abstract": {
+        "local": "2026-04-10 23:59:59",
+        "utc": "2026-04-11T11:59:59Z"
+       },
+       "paper": {
+        "local": "2026-04-17 23:59:59",
+        "utc": "2026-04-18T11:59:59Z"
+       },
+       "rebuttal": {
+        "local": "2026-06-17 23:59:59",
+        "utc": "2026-06-18T11:59:59Z"
+       },
+       "decision": {
+        "local": "2026-09-12 23:59:59",
+        "utc": "2026-09-13T11:59:59Z"
+       }
+      },
+      {
+       "label": "round 3",
+       "abstract": {
+        "local": "2026-07-10 23:59:59",
+        "utc": "2026-07-11T11:59:59Z"
+       },
+       "paper": {
+        "local": "2026-07-17 23:59:59",
+        "utc": "2026-07-18T11:59:59Z"
+       },
+       "rebuttal": {
+        "local": "2026-09-17 23:59:59",
+        "utc": "2026-09-18T11:59:59Z"
+       },
+       "decision": {
+        "local": "2026-12-12 23:59:59",
+        "utc": "2026-12-13T11:59:59Z"
+       }
+      },
+      {
+       "label": "round 4",
+       "abstract": {
+        "local": "2026-10-10 23:59:59",
+        "utc": "2026-10-11T11:59:59Z"
+       },
+       "paper": {
+        "local": "2026-10-17 23:59:59",
+        "utc": "2026-10-18T11:59:59Z"
+       },
+       "rebuttal": {
+        "local": "2026-12-17 23:59:59",
+        "utc": "2026-12-18T11:59:59Z"
+       },
+       "decision": {
+        "local": "2027-03-12 23:59:59",
+        "utc": "2027-03-13T11:59:59Z"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vldb",
+   "name": "VLDB",
+   "full_name": "International Conference on Very Large Data Bases",
+   "area": "data",
+   "coverage": true,
+   "rank": {
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "source_file": "conference/DB/vldb.yml",
+   "editions": [
+    {
+     "year": 2021,
+     "official_url": "http://www.vldb.org/2021/",
+     "timezone": "PT",
+     "conference_dates": "August 16-19, 2021",
+     "place": "Copenhagen, Denmark / Online",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2020-04-01 17:00:00",
+        "utc": "2020-04-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2020-05-01 17:00:00",
+        "utc": "2020-05-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2020-06-01 17:00:00",
+        "utc": "2020-06-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2020-07-01 17:00:00",
+        "utc": "2020-07-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2020-08-01 17:00:00",
+        "utc": "2020-08-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2020-09-01 17:00:00",
+        "utc": "2020-09-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2020-10-01 17:00:00",
+        "utc": "2020-10-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2020-11-01 17:00:00",
+        "utc": "2020-11-02T01:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2020-12-01 17:00:00",
+        "utc": "2020-12-02T01:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2021-01-01 17:00:00",
+        "utc": "2021-01-02T01:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2021-02-01 17:00:00",
+        "utc": "2021-02-02T01:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2021-03-01 17:00:00",
+        "utc": "2021-03-02T01:00:00Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "official_url": "http://www.vldb.org/2022/",
+     "timezone": "PT",
+     "conference_dates": "September 6-8, 2022",
+     "place": "Sydney, Australia / Online",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2021-04-01 17:00:00",
+        "utc": "2021-04-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2021-05-01 17:00:00",
+        "utc": "2021-05-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2021-06-01 17:00:00",
+        "utc": "2021-06-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2021-07-01 17:00:00",
+        "utc": "2021-07-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2021-08-01 17:00:00",
+        "utc": "2021-08-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2021-09-01 17:00:00",
+        "utc": "2021-09-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2021-10-01 17:00:00",
+        "utc": "2021-10-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2021-11-01 17:00:00",
+        "utc": "2021-11-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2021-12-01 17:00:00",
+        "utc": "2021-12-02T01:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2022-01-01 17:00:00",
+        "utc": "2022-01-02T01:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2022-02-01 17:00:00",
+        "utc": "2022-02-02T01:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2022-03-01 17:00:00",
+        "utc": "2022-03-02T01:00:00Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "official_url": "http://www.vldb.org/2023/",
+     "timezone": "PT",
+     "conference_dates": "August 29-31 (In-person) and September 1 (Online), 2023",
+     "place": "Vancouver, Canada / Online (September 1 presentations)",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2022-04-01 17:00:00",
+        "utc": "2022-04-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2022-05-01 17:00:00",
+        "utc": "2022-05-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2022-06-01 17:00:00",
+        "utc": "2022-06-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2022-07-01 17:00:00",
+        "utc": "2022-07-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2022-08-01 17:00:00",
+        "utc": "2022-08-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2022-09-01 17:00:00",
+        "utc": "2022-09-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2022-10-01 17:00:00",
+        "utc": "2022-10-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2022-11-01 17:00:00",
+        "utc": "2022-11-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2022-12-01 17:00:00",
+        "utc": "2022-12-02T01:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2023-01-01 17:00:00",
+        "utc": "2023-01-02T01:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2023-02-01 17:00:00",
+        "utc": "2023-02-02T01:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2023-03-01 17:00:00",
+        "utc": "2023-03-02T01:00:00Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "official_url": "http://www.vldb.org/2024/",
+     "timezone": "PT",
+     "conference_dates": "August 27-29, 2024",
+     "place": "Guangzhou, China (and hybrid)",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2023-04-01 17:00:00",
+        "utc": "2023-04-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2023-05-01 17:00:00",
+        "utc": "2023-05-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2023-06-01 17:00:00",
+        "utc": "2023-06-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2023-07-01 17:00:00",
+        "utc": "2023-07-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2023-08-01 17:00:00",
+        "utc": "2023-08-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2023-09-01 17:00:00",
+        "utc": "2023-09-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2023-10-01 17:00:00",
+        "utc": "2023-10-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2023-11-01 17:00:00",
+        "utc": "2023-11-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2023-12-01 17:00:00",
+        "utc": "2023-12-02T01:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2024-01-01 17:00:00",
+        "utc": "2024-01-02T01:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2024-02-01 17:00:00",
+        "utc": "2024-02-02T01:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2024-03-01 17:00:00",
+        "utc": "2024-03-02T01:00:00Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "official_url": "http://www.vldb.org/2025/",
+     "timezone": "PT",
+     "conference_dates": "September 2-4, 2025",
+     "place": "London, United Kingdom",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2024-04-01 17:00:00",
+        "utc": "2024-04-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2024-05-01 17:00:00",
+        "utc": "2024-05-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2024-06-01 17:00:00",
+        "utc": "2024-06-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2024-07-01 17:00:00",
+        "utc": "2024-07-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2024-08-01 17:00:00",
+        "utc": "2024-08-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2024-09-01 17:00:00",
+        "utc": "2024-09-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2024-10-01 17:00:00",
+        "utc": "2024-10-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2024-11-01 17:00:00",
+        "utc": "2024-11-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2024-12-01 17:00:00",
+        "utc": "2024-12-02T01:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2025-01-01 17:00:00",
+        "utc": "2025-01-02T01:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2025-02-01 17:00:00",
+        "utc": "2025-02-02T01:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2025-03-01 17:00:00",
+        "utc": "2025-03-02T01:00:00Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "official_url": "https://www.vldb.org/2026/",
+     "timezone": "PT",
+     "conference_dates": "September 1-3, 2026",
+     "place": "Boston, MA, USA",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2025-04-01 17:00:00",
+        "utc": "2025-04-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2025-05-01 17:00:00",
+        "utc": "2025-05-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2025-06-01 17:00:00",
+        "utc": "2025-06-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2025-07-01 17:00:00",
+        "utc": "2025-07-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2025-08-01 17:00:00",
+        "utc": "2025-08-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2025-09-01 17:00:00",
+        "utc": "2025-09-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2025-10-01 17:00:00",
+        "utc": "2025-10-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2025-11-01 17:00:00",
+        "utc": "2025-11-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2025-12-01 17:00:00",
+        "utc": "2025-12-02T01:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2026-01-01 17:00:00",
+        "utc": "2026-01-02T01:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2026-02-01 17:00:00",
+        "utc": "2026-02-02T01:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2026-03-01 17:00:00",
+        "utc": "2026-03-02T01:00:00Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2027,
+     "official_url": "https://www.vldb.org/2027/",
+     "timezone": "PT",
+     "conference_dates": "August 23 - August 27, 2027",
+     "place": "Athens, Greece",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2026-03-25 17:00:00",
+        "utc": "2026-03-26T00:00:00Z"
+       },
+       "paper": {
+        "local": "2026-04-01 17:00:00",
+        "utc": "2026-04-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "abstract": {
+        "local": "2026-04-25 17:00:00",
+        "utc": "2026-04-26T00:00:00Z"
+       },
+       "paper": {
+        "local": "2026-05-01 17:00:00",
+        "utc": "2026-05-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "abstract": {
+        "local": "2026-05-25 17:00:00",
+        "utc": "2026-05-26T00:00:00Z"
+       },
+       "paper": {
+        "local": "2026-06-01 17:00:00",
+        "utc": "2026-06-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "abstract": {
+        "local": "2026-06-25 17:00:00",
+        "utc": "2026-06-26T00:00:00Z"
+       },
+       "paper": {
+        "local": "2026-07-01 17:00:00",
+        "utc": "2026-07-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "abstract": {
+        "local": "2026-07-25 17:00:00",
+        "utc": "2026-07-26T00:00:00Z"
+       },
+       "paper": {
+        "local": "2026-08-01 17:00:00",
+        "utc": "2026-08-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "abstract": {
+        "local": "2026-08-25 17:00:00",
+        "utc": "2026-08-26T00:00:00Z"
+       },
+       "paper": {
+        "local": "2026-09-01 17:00:00",
+        "utc": "2026-09-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "abstract": {
+        "local": "2026-09-25 17:00:00",
+        "utc": "2026-09-26T00:00:00Z"
+       },
+       "paper": {
+        "local": "2026-10-01 17:00:00",
+        "utc": "2026-10-02T00:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "abstract": {
+        "local": "2026-10-25 17:00:00",
+        "utc": "2026-10-26T00:00:00Z"
+       },
+       "paper": {
+        "local": "2026-11-01 17:00:00",
+        "utc": "2026-11-02T01:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "abstract": {
+        "local": "2026-11-25 17:00:00",
+        "utc": "2026-11-26T01:00:00Z"
+       },
+       "paper": {
+        "local": "2026-12-01 17:00:00",
+        "utc": "2026-12-02T01:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "abstract": {
+        "local": "2026-12-25 17:00:00",
+        "utc": "2026-12-26T01:00:00Z"
+       },
+       "paper": {
+        "local": "2027-01-01 17:00:00",
+        "utc": "2027-01-02T01:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "abstract": {
+        "local": "2027-01-25 17:00:00",
+        "utc": "2027-01-26T01:00:00Z"
+       },
+       "paper": {
+        "local": "2027-02-01 17:00:00",
+        "utc": "2027-02-02T01:00:00Z"
+       }
+      },
+      {
+       "label": "",
+       "abstract": {
+        "local": "2027-02-25 17:00:00",
+        "utc": "2027-02-26T01:00:00Z"
+       },
+       "paper": {
+        "local": "2027-03-01 17:00:00",
+        "utc": "2027-03-02T01:00:00Z"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sdm",
+   "name": "SDM",
+   "full_name": "SIAM International Conference on Data Mining",
+   "area": "data",
+   "coverage": true,
+   "rank": {
+    "ccf": "B",
+    "core": "A",
+    "thcpl": "B"
+   },
+   "source_file": "conference/DB/sdm.yml",
+   "editions": [
+    {
+     "year": 2021,
+     "official_url": "https://www.siam.org/conferences-events/past-event-archive/sdm21/",
+     "timezone": "UTC-4",
+     "conference_dates": "TBD",
+     "place": "Online",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2020-10-12 23:59:59",
+        "utc": "2020-10-13T03:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "official_url": "https://www.siam.org/conferences-events/past-event-archive/sdm22/",
+     "timezone": "UTC-7",
+     "conference_dates": "April 28-30, 2022",
+     "place": "Online",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2021-10-12 23:59:59",
+        "utc": "2021-10-13T06:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "official_url": "https://www.siam.org/conferences/cm/conference/sdm23",
+     "timezone": "UTC-7",
+     "conference_dates": "April 27-29, 2023",
+     "place": "Minneapolis, Minnesota, USA",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2022-09-30 23:59:59",
+        "utc": "2022-10-01T06:59:59Z"
+       },
+       "paper": {
+        "local": "2022-10-07 23:59:59",
+        "utc": "2022-10-08T06:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "official_url": "https://www.siam.org/conferences/cm/conference/sdm24",
+     "timezone": "UTC-7",
+     "conference_dates": "April 18-20, 2024",
+     "place": "Houston, TX, USA",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2023-09-15 23:59:59",
+        "utc": "2023-09-16T06:59:59Z"
+       },
+       "paper": {
+        "local": "2023-09-22 23:59:59",
+        "utc": "2023-09-23T06:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "official_url": "https://www.siam.org/conferences-events/siam-conferences/sdm25",
+     "timezone": "UTC-7",
+     "conference_dates": "May 1-3, 2025",
+     "place": "Alexandria, Virginia, USA",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2024-09-27 23:59:59",
+        "utc": "2024-09-28T06:59:59Z"
+       },
+       "paper": {
+        "local": "2024-10-04 23:59:59",
+        "utc": "2024-10-05T06:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "official_url": "https://www.siam.org/conferences-events/siam-conferences/sdm26/",
+     "timezone": "AoE",
+     "conference_dates": "November 19-20, 2026",
+     "place": "Salt Lake City, Utah, USA",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2026-04-10 23:59:59",
+        "utc": "2026-04-11T11:59:59Z"
+       },
+       "paper": {
+        "local": "2026-04-17 23:59:59",
+        "utc": "2026-04-18T11:59:59Z"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cvpr",
+   "name": "CVPR",
+   "full_name": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+   "area": "vision",
+   "coverage": true,
+   "rank": {
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "source_file": "conference/AI/cvpr.yml",
+   "editions": [
+    {
+     "year": 2021,
+     "official_url": "https://cvpr2021.thecvf.com/",
+     "timezone": "UTC-8",
+     "conference_dates": "June 21-24, 2021",
+     "place": "Virtual",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2020-11-09 23:59:59",
+        "utc": "2020-11-10T07:59:59Z"
+       },
+       "paper": {
+        "local": "2020-11-16 23:59:59",
+        "utc": "2020-11-17T07:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "official_url": "http://cvpr2022.thecvf.com/",
+     "timezone": "UTC-8",
+     "conference_dates": "June 21-24 and 28 (virtual posters), 2022",
+     "place": "New Orleans, Louisiana (Hybrid)",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2021-11-09 23:59:59",
+        "utc": "2021-11-10T07:59:59Z"
+       },
+       "paper": {
+        "local": "2021-11-18 11:59:00",
+        "utc": "2021-11-18T19:59:00Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "official_url": "https://cvpr.thecvf.com/Conferences/2023",
+     "timezone": "UTC-8",
+     "conference_dates": "June 20-22, 2023",
+     "place": "Vancouver, Canada (Hybrid)",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2022-11-04 22:59:00",
+        "utc": "2022-11-05T06:59:00Z"
+       },
+       "paper": {
+        "local": "2022-11-11 23:59:59",
+        "utc": "2022-11-12T07:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "official_url": "https://cvpr.thecvf.com/Conferences/2024",
+     "timezone": "UTC-8",
+     "conference_dates": "June 19-21, 2024",
+     "place": "Seattle, USA (Hybrid)",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2023-11-03 22:59:00",
+        "utc": "2023-11-04T06:59:00Z"
+       },
+       "paper": {
+        "local": "2023-11-17 23:59:59",
+        "utc": "2023-11-18T07:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "official_url": "https://cvpr.thecvf.com/Conferences/2025/CallForPapers",
+     "timezone": "UTC-8",
+     "conference_dates": "June 13-15, 2025",
+     "place": "Nashville, Tennessee, USA (Hybrid)",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2024-11-07 23:59:59",
+        "utc": "2024-11-08T07:59:59Z"
+       },
+       "paper": {
+        "local": "2024-11-14 23:59:59",
+        "utc": "2024-11-15T07:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "official_url": "https://cvpr.thecvf.com/Conferences/2026",
+     "timezone": "UTC-12",
+     "conference_dates": "June 5-7, 2026",
+     "place": "Denver, Colorado, United States (Hybrid)",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2025-11-07 23:59:59",
+        "utc": "2025-11-08T11:59:59Z"
+       },
+       "paper": {
+        "local": "2025-11-13 23:59:59",
+        "utc": "2025-11-14T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2027,
+     "official_url": "https://cvpr.thecvf.com/Conferences/2027",
+     "timezone": "UTC-12",
+     "conference_dates": "June 22-25, 2027",
+     "place": "Seattle, WA, United States",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2026-11-10 23:59:59",
+        "utc": "2026-11-11T11:59:59Z"
+       },
+       "paper": {
+        "local": "2026-11-16 23:59:59",
+        "utc": "2026-11-17T11:59:59Z"
+       },
+       "rebuttal": {
+        "local": "2027-02-01 23:59:59",
+        "utc": "2027-02-02T11:59:59Z"
+       },
+       "decision": {
+        "local": "2027-02-25 23:59:59",
+        "utc": "2027-02-26T11:59:59Z"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "iccv",
+   "name": "ICCV",
+   "full_name": "IEEE International Conference on Computer Vision",
+   "area": "vision",
+   "coverage": true,
+   "rank": {
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "source_file": "conference/AI/iccv.yml",
+   "editions": [
+    {
+     "year": 2021,
+     "official_url": "https://iccv2021.thecvf.com/",
+     "timezone": "UTC-7",
+     "conference_dates": "October 12-15, 2021",
+     "place": "Virtual",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2021-03-11 00:59:00",
+        "utc": "2021-03-11T07:59:00Z"
+       },
+       "paper": {
+        "local": "2021-03-17 23:59:59",
+        "utc": "2021-03-18T06:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "official_url": "https://iccv2023.thecvf.com/",
+     "timezone": "UTC+0",
+     "conference_dates": "October 4-6, 2023",
+     "place": "Paris",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2023-03-08 23:59:59",
+        "utc": "2023-03-08T23:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "official_url": "https://iccv.thecvf.com/Conferences/2025",
+     "timezone": "UTC+0",
+     "conference_dates": "October 21-23, 2025",
+     "place": "Honolulu, Hawaii (Hybrid)",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2025-03-04 09:59:59",
+        "utc": "2025-03-04T09:59:59Z"
+       },
+       "paper": {
+        "local": "2025-03-08 09:59:59",
+        "utc": "2025-03-08T09:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2027,
+     "official_url": "https://iccv.thecvf.com/Conferences/2027",
+     "timezone": "AoE",
+     "conference_dates": "October 5-7, 2027",
+     "place": "Hong Kong, China",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": null,
+        "utc": null,
+        "note": "TBD"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eccv",
+   "name": "ECCV",
+   "full_name": "European Conference on Computer Vision",
+   "area": "vision",
+   "coverage": true,
+   "rank": {
+    "ccf": "B",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "source_file": "conference/AI/eccv.yml",
+   "editions": [
+    {
+     "year": 2022,
+     "official_url": "https://eccv2022.ecva.net/",
+     "timezone": "UTC-8",
+     "conference_dates": "October 25-27, 2022",
+     "place": "Tel-Aviv, Israel (Hybrid)",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2022-03-07 11:59:00",
+        "utc": "2022-03-07T19:59:00Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "official_url": "https://eccv.ecva.net/Conferences/2024",
+     "timezone": "UTC-8",
+     "conference_dates": "October 1-4, 2024",
+     "place": "MiCo Milano, Italy",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2024-02-29 13:00:00",
+        "utc": "2024-02-29T21:00:00Z"
+       },
+       "paper": {
+        "local": "2024-03-07 13:00:00",
+        "utc": "2024-03-07T21:00:00Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "official_url": "https://eccv.ecva.net/",
+     "timezone": "UTC-8",
+     "conference_dates": "September 10-12, 2026",
+     "place": "Malmö, Sweden",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2026-02-26 14:00:00",
+        "utc": "2026-02-26T22:00:00Z"
+       },
+       "paper": {
+        "local": "2026-03-05 14:00:00",
+        "utc": "2026-03-05T22:00:00Z"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ecmlpkdd",
+   "name": "ECML PKDD",
+   "full_name": "European Conference on Machine Learning and 25th Principles and Practice of Knowledge Discovery in Databases",
+   "area": "data",
+   "coverage": false,
+   "rank": {
+    "ccf": "B",
+    "core": "A",
+    "thcpl": "N"
+   },
+   "source_file": "conference/DB/pkdd.yml",
+   "editions": [
+    {
+     "year": 2021,
+     "official_url": "https://2021.ecmlpkdd.org/",
+     "timezone": "AoE",
+     "conference_dates": "September 14-16, 2021",
+     "place": "Virtual",
+     "rounds": [
+      {
+       "label": "Journal track, cycle 1; 2021 presentation conditional",
+       "paper": {
+        "local": "2020-09-20 10:59:00",
+        "utc": "2020-09-20T22:59:00Z"
+       }
+      },
+      {
+       "label": "Journal track, cycle 2; 2021 presentation conditional",
+       "paper": {
+        "local": "2020-11-22 10:59:00",
+        "utc": "2020-11-22T22:59:00Z"
+       }
+      },
+      {
+       "label": "Journal track, cycle 3; 2021 presentation conditional",
+       "paper": {
+        "local": "2021-01-31 10:59:00",
+        "utc": "2021-01-31T22:59:00Z"
+       }
+      },
+      {
+       "label": "Research track",
+       "abstract": {
+        "local": "2021-03-26 23:59:59",
+        "utc": "2021-03-27T11:59:59Z"
+       },
+       "paper": {
+        "local": "2021-04-02 23:59:59",
+        "utc": "2021-04-03T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "official_url": "https://2022.ecmlpkdd.org/index.php/key-dates-deadlines/",
+     "timezone": "AoE",
+     "conference_dates": "September 20-22, 2022",
+     "place": "Grenoble, France",
+     "rounds": [
+      {
+       "label": "Journal track, cycle 1; conflicting CET/AoE",
+       "paper": {
+        "local": null,
+        "utc": null,
+        "note": "TBD"
+       }
+      },
+      {
+       "label": "Journal track, cycle 2; conflicting CET/AoE",
+       "paper": {
+        "local": null,
+        "utc": null,
+        "note": "TBD"
+       }
+      },
+      {
+       "label": "Journal track, cycle 3; conflicting CET/AoE",
+       "paper": {
+        "local": null,
+        "utc": null,
+        "note": "TBD"
+       }
+      },
+      {
+       "label": "Research track",
+       "abstract": {
+        "local": "2022-03-30 23:59:59",
+        "utc": "2022-03-31T11:59:59Z"
+       },
+       "paper": {
+        "local": "2022-04-06 23:59:59",
+        "utc": "2022-04-07T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "official_url": "https://2023.ecmlpkdd.org/submissions/key-dates-deadlines/",
+     "timezone": "AoE",
+     "conference_dates": "September 19-21, 2023",
+     "place": "Turin, Italy",
+     "rounds": [
+      {
+       "label": "Journal track, cycle 1",
+       "paper": {
+        "local": "2022-12-07 23:59:59",
+        "utc": "2022-12-08T11:59:59Z"
+       }
+      },
+      {
+       "label": "Journal track, cycle 2",
+       "paper": {
+        "local": "2023-02-10 23:59:59",
+        "utc": "2023-02-11T11:59:59Z"
+       }
+      },
+      {
+       "label": "Research track",
+       "abstract": {
+        "local": "2023-03-26 23:59:59",
+        "utc": "2023-03-27T11:59:59Z"
+       },
+       "paper": {
+        "local": "2023-04-02 23:59:59",
+        "utc": "2023-04-03T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "official_url": "https://2024.ecmlpkdd.org/submissions/key-dates-and-deadlines/",
+     "timezone": "AoE",
+     "conference_dates": "September 9-13, 2024",
+     "place": "Vilnius, Lithuania",
+     "rounds": [
+      {
+       "label": "Journal track; CMT abstract and journal manuscript",
+       "abstract": {
+        "local": "2023-12-05 23:59:59",
+        "utc": "2023-12-06T11:59:59Z"
+       },
+       "paper": {
+        "local": "2023-12-05 23:59:59",
+        "utc": "2023-12-06T11:59:59Z"
+       }
+      },
+      {
+       "label": "Research track",
+       "abstract": {
+        "local": "2024-03-15 23:59:59",
+        "utc": "2024-03-16T11:59:59Z"
+       },
+       "paper": {
+        "local": "2024-03-22 23:59:59",
+        "utc": "2024-03-23T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "official_url": "https://ecmlpkdd.org/2025/",
+     "timezone": "AoE",
+     "conference_dates": "September 15-18, 2025",
+     "place": "Porto, Portugal",
+     "rounds": [
+      {
+       "label": "Journal track, cycle 1; conflicting October 11/13 dates",
+       "paper": {
+        "local": null,
+        "utc": null,
+        "note": "TBD"
+       }
+      },
+      {
+       "label": "Journal track, cycle 2",
+       "paper": {
+        "local": "2024-12-13 23:59:59",
+        "utc": "2024-12-14T11:59:59Z"
+       }
+      },
+      {
+       "label": "Journal track, cycle 3",
+       "paper": {
+        "local": "2025-02-14 23:59:59",
+        "utc": "2025-02-15T11:59:59Z"
+       }
+      },
+      {
+       "label": "Research track",
+       "abstract": {
+        "local": "2025-03-07 23:59:59",
+        "utc": "2025-03-08T11:59:59Z"
+       },
+       "paper": {
+        "local": "2025-03-14 23:59:59",
+        "utc": "2025-03-15T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "official_url": "https://ecmlpkdd.org/2026/",
+     "timezone": "AoE",
+     "conference_dates": "September 7-11, 2026",
+     "place": "Naples, Italy",
+     "rounds": [
+      {
+       "label": "Journal track, cycle 1; CMT abstract and journal manuscript",
+       "abstract": {
+        "local": "2025-10-30 23:59:59",
+        "utc": "2025-10-31T11:59:59Z"
+       },
+       "paper": {
+        "local": "2025-10-30 23:59:59",
+        "utc": "2025-10-31T11:59:59Z"
+       }
+      },
+      {
+       "label": "Journal track, cycle 2; CMT abstract and journal manuscript",
+       "abstract": {
+        "local": "2026-01-15 23:59:59",
+        "utc": "2026-01-16T11:59:59Z"
+       },
+       "paper": {
+        "local": "2026-01-15 23:59:59",
+        "utc": "2026-01-16T11:59:59Z"
+       }
+      },
+      {
+       "label": "Research track",
+       "abstract": {
+        "local": "2026-03-05 23:59:59",
+        "utc": "2026-03-06T11:59:59Z"
+       },
+       "paper": {
+        "local": "2026-03-12 23:59:59",
+        "utc": "2026-03-13T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2027,
+     "official_url": "https://ecmlpkdd.org/2027/",
+     "timezone": "AoE",
+     "conference_dates": "September 20-24, 2027",
+     "place": "Eindhoven, The Netherlands",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": null,
+        "utc": null,
+        "note": "TBD"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "icdm",
+   "name": "ICDM",
+   "full_name": "IEEE International Conference on Data Mining",
+   "area": "data",
+   "coverage": false,
+   "rank": {
+    "ccf": "B",
+    "core": "A*",
+    "thcpl": "B"
+   },
+   "source_file": "conference/DB/icdm.yml",
+   "editions": [
+    {
+     "year": 2021,
+     "official_url": "https://icdm2021.auckland.ac.nz/",
+     "timezone": "UTC+8",
+     "conference_dates": "December 8-10, 2021",
+     "place": "Virtual",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2021-06-12 14:59:00",
+        "utc": "2021-06-12T06:59:00Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "official_url": "https://icdm22.cse.usf.edu/key-dates.html",
+     "timezone": "UTC-7",
+     "conference_dates": "November 28 - December 1, 2022",
+     "place": "Orlando, FL, USA",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2022-06-10 23:59:59",
+        "utc": "2022-06-11T06:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "official_url": "http://cloud-conf.net/icdm2023/index.html",
+     "timezone": "UTC+8",
+     "conference_dates": "December 2-4, 2023",
+     "place": "Shanghai, China",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2023-07-01 23:59:59",
+        "utc": "2023-07-01T15:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "official_url": "https://icdm2024.org/dates/",
+     "timezone": "AoE",
+     "conference_dates": "December 10-12, 2024",
+     "place": "Abu Dhabi, UAE",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2024-06-14 23:59:59",
+        "utc": "2024-06-15T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "official_url": "https://www3.cs.stonybrook.edu/~icdm2025/cfp.html",
+     "timezone": "AoE",
+     "conference_dates": "November 13-15, 2025",
+     "place": "Washington DC, USA",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2025-06-06 23:59:59",
+        "utc": "2025-06-07T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "official_url": "http://icdm2026.neu.edu.cn/",
+     "timezone": "AoE",
+     "conference_dates": "November 13-15, 2026",
+     "place": "Shenyang, China",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2026-06-06 23:59:59",
+        "utc": "2026-06-07T11:59:59Z"
+       },
+       "decision": {
+        "local": "2026-08-16 23:59:59",
+        "utc": "2026-08-17T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2027,
+     "official_url": "https://icdm2027-website.onrender.com/",
+     "timezone": "AoE",
+     "conference_dates": "November 15-18, 2027",
+     "place": "Brisbane, Australia",
+     "rounds": [
+      {
+       "label": "Full papers; dates are tentative and subject to change",
+       "paper": {
+        "local": "2027-06-06 23:59:59",
+        "utc": "2027-06-07T11:59:59Z"
+       },
+       "decision": {
+        "local": "2027-08-16 23:59:59",
+        "utc": "2027-08-17T11:59:59Z"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wsdm",
+   "name": "WSDM",
+   "full_name": "International Conference on Web Search and Data Mining",
+   "area": "data",
+   "coverage": false,
+   "rank": {
+    "ccf": "B",
+    "core": "A",
+    "thcpl": "A"
+   },
+   "source_file": "conference/DB/wsdm.yml",
+   "editions": [
+    {
+     "year": 2021,
+     "official_url": "https://www.wsdm-conference.org/2021/",
+     "timezone": "UTC-11",
+     "conference_dates": "March 8-12, 2021",
+     "place": "Online",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2020-08-16 23:59:59",
+        "utc": "2020-08-17T10:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "official_url": "https://www.wsdm-conference.org/2022/",
+     "timezone": "UTC-12",
+     "conference_dates": "February 22-24, 2022",
+     "place": "Online",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2021-08-13 23:59:59",
+        "utc": "2021-08-14T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "official_url": "https://www.wsdm-conference.org/2023/",
+     "timezone": "UTC-12",
+     "conference_dates": "February 28 - March 2, 2023",
+     "place": "Singapore / Online",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2022-08-12 23:59:59",
+        "utc": "2022-08-13T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "official_url": "https://www.wsdm-conference.org/2024/",
+     "timezone": "UTC-12",
+     "conference_dates": "March 5-7, 2024",
+     "place": "Mérida, México / Online",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2023-08-10 23:59:59",
+        "utc": "2023-08-11T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "official_url": "https://www.wsdm-conference.org/2025/",
+     "timezone": "UTC-12",
+     "conference_dates": "March 11-13, 2025",
+     "place": "Hannover, Germany",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2024-08-09 23:59:59",
+        "utc": "2024-08-10T11:59:59Z"
+       },
+       "paper": {
+        "local": "2024-08-14 23:59:59",
+        "utc": "2024-08-15T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "official_url": "https://wsdm-conference.org/2026/",
+     "timezone": "UTC-12",
+     "conference_dates": "February 23-25, 2026",
+     "place": "Boise, Idaho, USA",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2025-08-07 23:59:59",
+        "utc": "2025-08-08T11:59:59Z"
+       },
+       "paper": {
+        "local": "2025-08-14 23:59:59",
+        "utc": "2025-08-15T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2027,
+     "official_url": "https://wsdm-conference.org/2027/",
+     "timezone": "UTC-12",
+     "conference_dates": "February 15 - 19, 2027",
+     "place": "Cordis, Hong Kong SAR, China",
+     "rounds": [
+      {
+       "label": "Full Paper",
+       "abstract": {
+        "local": "2026-08-17 23:59:59",
+        "utc": "2026-08-18T11:59:59Z"
+       },
+       "paper": {
+        "local": "2026-08-24 23:59:59",
+        "utc": "2026-08-25T11:59:59Z"
+       },
+       "decision": {
+        "local": "2026-11-02 23:59:59",
+        "utc": "2026-11-03T11:59:59Z"
+       }
+      },
+      {
+       "label": "Short Paper",
+       "paper": {
+        "local": "2026-11-17 23:59:59",
+        "utc": "2026-11-18T11:59:59Z"
+       },
+       "decision": {
+        "local": "2026-12-18 23:59:59",
+        "utc": "2026-12-19T11:59:59Z"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sigir",
+   "name": "SIGIR",
+   "full_name": "International Conference on Research on Development in Information Retrieval",
+   "area": "data",
+   "coverage": false,
+   "rank": {
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "source_file": "conference/DB/sigir.yml",
+   "editions": [
+    {
+     "year": 2021,
+     "official_url": "http://sigir.org/sigir2021/",
+     "timezone": "AoE",
+     "conference_dates": "July 12-14, 2021",
+     "place": "Virtual",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2021-02-02 23:59:59",
+        "utc": "2021-02-03T11:59:59Z"
+       },
+       "paper": {
+        "local": "2021-02-09 23:59:59",
+        "utc": "2021-02-10T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "official_url": "https://sigir.org/sigir2022/",
+     "timezone": "AoE",
+     "conference_dates": "July 7 (online) and July 12-14, 2022",
+     "place": "Madrid / Online",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2022-01-21 23:59:59",
+        "utc": "2022-01-22T11:59:59Z"
+       },
+       "paper": {
+        "local": "2022-01-28 23:59:59",
+        "utc": "2022-01-29T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "official_url": "https://sigir.org/sigir2023/",
+     "timezone": "AoE",
+     "conference_dates": "July 24-26, 2023",
+     "place": "Taipei, Taiwan / Online",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2023-01-24 23:59:59",
+        "utc": "2023-01-25T11:59:59Z"
+       },
+       "paper": {
+        "local": "2023-01-31 23:59:59",
+        "utc": "2023-02-01T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "official_url": "https://sigir-2024.github.io/index.html",
+     "timezone": "AoE",
+     "conference_dates": "July 15-17, 2024",
+     "place": "Washington D.C., USA",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2024-01-18 23:59:59",
+        "utc": "2024-01-19T11:59:59Z"
+       },
+       "paper": {
+        "local": "2024-01-25 23:59:59",
+        "utc": "2024-01-26T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "official_url": "https://sigir2025.dei.unipd.it/",
+     "timezone": "AoE",
+     "conference_dates": "July 14-16, 2025",
+     "place": "Padova, Italy",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2025-01-16 23:59:59",
+        "utc": "2025-01-17T11:59:59Z"
+       },
+       "paper": {
+        "local": "2025-01-23 23:59:59",
+        "utc": "2025-01-24T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "official_url": "https://sigir2026.org/en-AU",
+     "timezone": "AoE",
+     "conference_dates": "July 21-23, 2026",
+     "place": "Melbourne, Australia",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2026-01-15 23:59:59",
+        "utc": "2026-01-16T11:59:59Z"
+       },
+       "paper": {
+        "local": "2026-01-22 23:59:59",
+        "utc": "2026-01-23T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2027,
+     "official_url": "https://sigir2027.org/",
+     "timezone": "AoE",
+     "conference_dates": "July 18-24, 2027",
+     "place": "San Jose, California, USA",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2027-01-14 23:59:59",
+        "utc": "2027-01-15T11:59:59Z"
+       },
+       "paper": {
+        "local": "2027-01-21 23:59:59",
+        "utc": "2027-01-22T11:59:59Z"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "recsys",
+   "name": "RecSys",
+   "full_name": "ACM Conference on Recommender Systems",
+   "area": "data",
+   "coverage": false,
+   "rank": {
+    "ccf": "B",
+    "core": "A",
+    "thcpl": "B"
+   },
+   "source_file": "conference/DB/recsys.yml",
+   "editions": [
+    {
+     "year": 2021,
+     "official_url": "https://recsys.acm.org/recsys21/",
+     "timezone": "AoE",
+     "conference_dates": "September 27-30, 2021",
+     "place": "Amsterdam, Netherlands / Online",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2021-04-27 23:59:59",
+        "utc": "2021-04-28T11:59:59Z"
+       },
+       "paper": {
+        "local": "2021-05-04 23:59:59",
+        "utc": "2021-05-05T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "official_url": "https://recsys.acm.org/recsys22/",
+     "timezone": "AoE",
+     "conference_dates": "September 19-21, 2022",
+     "place": "Seattle, WA, USA (with remote attendance)",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2022-04-26 23:59:59",
+        "utc": "2022-04-27T11:59:59Z"
+       },
+       "paper": {
+        "local": "2022-05-03 23:59:59",
+        "utc": "2022-05-04T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "official_url": "https://recsys.acm.org/recsys23",
+     "timezone": "AoE",
+     "conference_dates": "September 20-22, 2023",
+     "place": "Singapore / Online",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2023-04-14 23:59:59",
+        "utc": "2023-04-15T11:59:59Z"
+       },
+       "paper": {
+        "local": "2023-04-21 23:59:59",
+        "utc": "2023-04-22T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "official_url": "https://recsys.acm.org/recsys24",
+     "timezone": "AoE",
+     "conference_dates": "October 15-17, 2024",
+     "place": "Bari, Italy",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2024-04-22 23:59:59",
+        "utc": "2024-04-23T11:59:59Z"
+       },
+       "paper": {
+        "local": "2024-04-29 23:59:59",
+        "utc": "2024-04-30T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "official_url": "https://recsys.acm.org/recsys25",
+     "timezone": "AoE",
+     "conference_dates": "September 23-25, 2025",
+     "place": "Prague, Czech Republic",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2025-04-01 23:59:59",
+        "utc": "2025-04-02T11:59:59Z"
+       },
+       "paper": {
+        "local": "2025-04-08 23:59:59",
+        "utc": "2025-04-09T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "official_url": "https://recsys.acm.org/recsys26",
+     "timezone": "AoE",
+     "conference_dates": "September 29 - October 1, 2026",
+     "place": "Minneapolis, Minnesota, USA",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2026-04-14 23:59:59",
+        "utc": "2026-04-15T11:59:59Z"
+       },
+       "paper": {
+        "local": "2026-04-21 23:59:59",
+        "utc": "2026-04-22T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2027,
+     "official_url": "https://recsys.acm.org/recsys27/",
+     "timezone": "AoE",
+     "conference_dates": "August 23-27, 2027",
+     "place": "Honolulu, O‘ahu, Hawaii, USA",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": null,
+        "utc": null,
+        "note": "TBD"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sigspatial",
+   "name": "SIGSPATIAL",
+   "full_name": "ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems",
+   "area": "data",
+   "coverage": false,
+   "rank": {
+    "ccf": "C",
+    "core": "A",
+    "thcpl": "N"
+   },
+   "source_file": "conference/MX/sigspatial.yml",
+   "editions": [
+    {
+     "year": 2021,
+     "official_url": "https://sigspatial2021.sigspatial.org/",
+     "timezone": "UTC-7",
+     "conference_dates": "November 2-5, 2021",
+     "place": "Virtual",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2021-05-27 23:59:59",
+        "utc": "2021-05-28T06:59:59Z"
+       },
+       "paper": {
+        "local": "2021-06-10 23:59:59",
+        "utc": "2021-06-11T06:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "official_url": "https://sigspatial2022.sigspatial.org/",
+     "timezone": "UTC-7",
+     "conference_dates": "November 2-4, 2022",
+     "place": "Seattle, Washington, USA",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2022-06-10 23:59:59",
+        "utc": "2022-06-11T06:59:59Z"
+       },
+       "paper": {
+        "local": "2022-06-17 23:59:59",
+        "utc": "2022-06-18T06:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "official_url": "http://sigspatial2023.sigspatial.org/",
+     "timezone": "UTC-7",
+     "conference_dates": "November 14-16, 2023",
+     "place": "Hamburg, Germany",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2023-06-09 23:59:59",
+        "utc": "2023-06-10T06:59:59Z"
+       },
+       "paper": {
+        "local": "2023-06-23 23:59:59",
+        "utc": "2023-06-24T06:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "official_url": "https://sigspatial2024.sigspatial.org/",
+     "timezone": "UTC-7",
+     "conference_dates": "October 30 - November 1, 2024",
+     "place": "Atlanta, Georgia, USA",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2024-05-31 23:59:59",
+        "utc": "2024-06-01T06:59:59Z"
+       },
+       "paper": {
+        "local": "2024-06-07 23:59:59",
+        "utc": "2024-06-08T06:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "official_url": "https://sigspatial2025.sigspatial.org/",
+     "timezone": "UTC-7",
+     "conference_dates": "November 4-6, 2025",
+     "place": "Minneapolis, MN, USA",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2025-05-30 23:59:59",
+        "utc": "2025-05-31T06:59:59Z"
+       },
+       "paper": {
+        "local": "2025-06-06 23:59:59",
+        "utc": "2025-06-07T06:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "official_url": "https://sigspatial2026.sigspatial.org/",
+     "timezone": "UTC-7",
+     "conference_dates": "November 3-6, 2026",
+     "place": "Riverside, CA, USA",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2026-05-29 23:59:59",
+        "utc": "2026-05-30T06:59:59Z"
+       },
+       "paper": {
+        "local": "2026-06-05 23:59:59",
+        "utc": "2026-06-06T06:59:59Z"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "acmmm",
+   "name": "ACM MM",
+   "full_name": "ACM International Conference on Multimedia",
+   "area": "vision",
+   "coverage": false,
+   "rank": {
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "source_file": "conference/CG/mm.yml",
+   "editions": [
+    {
+     "year": 2021,
+     "official_url": "https://2021.acmmm.org/",
+     "timezone": "AoE",
+     "conference_dates": "October 21-23, 2021",
+     "place": "Chengdu, China",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2021-04-10 23:59:59",
+        "utc": "2021-04-11T11:59:59Z"
+       },
+       "paper": {
+        "local": "2021-04-17 23:59:59",
+        "utc": "2021-04-18T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "official_url": "https://2022.acmmm.org/",
+     "timezone": "UTC-12",
+     "conference_dates": "October 11-13, 2022",
+     "place": "Lisbon, Portugal",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2022-03-31 23:59:59",
+        "utc": "2022-04-01T11:59:59Z"
+       },
+       "paper": {
+        "local": "2022-04-11 23:59:59",
+        "utc": "2022-04-12T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "official_url": "https://www.acmmm2023.org/",
+     "timezone": "UTC-12",
+     "conference_dates": "October 30-November 1, 2023",
+     "place": "Ottawa, Ontario, Canada",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2023-04-23 23:59:59",
+        "utc": "2023-04-24T11:59:59Z"
+       },
+       "paper": {
+        "local": "2023-05-04 23:59:59",
+        "utc": "2023-05-05T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "official_url": "https://2024.acmmm.org/",
+     "timezone": "UTC-12",
+     "conference_dates": "October 29-31, 2024",
+     "place": "Melbourne, Australia",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2024-04-08 23:59:59",
+        "utc": "2024-04-09T11:59:59Z"
+       },
+       "paper": {
+        "local": "2024-04-12 23:59:59",
+        "utc": "2024-04-13T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "official_url": "https://acmmm2025.org/",
+     "timezone": "UTC-12",
+     "conference_dates": "October 29-31, 2025",
+     "place": "Dublin, Ireland",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2025-04-04 23:59:59",
+        "utc": "2025-04-05T11:59:59Z"
+       },
+       "paper": {
+        "local": "2025-04-11 23:59:59",
+        "utc": "2025-04-12T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "official_url": "https://2026.acmmm.org/",
+     "timezone": "AoE",
+     "conference_dates": "November 11-14, 2026",
+     "place": "Rio de Janeiro, Brazil",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2026-03-25 23:59:00",
+        "utc": "2026-03-26T11:59:00Z"
+       },
+       "paper": {
+        "local": "2026-04-01 23:59:59",
+        "utc": "2026-04-02T11:59:59Z"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "acl",
+   "name": "ACL",
+   "full_name": "Annual Meeting of the Association for Computational Linguistics",
+   "area": "nlp",
+   "coverage": false,
+   "rank": {
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "source_file": "conference/AI/acl.yml",
+   "editions": [
+    {
+     "year": 2021,
+     "official_url": "https://2021.aclweb.org/",
+     "timezone": "UTC-12",
+     "conference_dates": "August 2-4, 2021",
+     "place": "Virtual",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2021-01-25 23:59:59",
+        "utc": "2021-01-26T11:59:59Z"
+       },
+       "paper": {
+        "local": "2021-02-02 23:59:59",
+        "utc": "2021-02-03T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "official_url": "https://2022.aclweb.org/",
+     "timezone": "UTC-12",
+     "conference_dates": "May 23-25, 2022",
+     "place": "Dublin, Ireland (Hybrid)",
+     "rounds": [
+      {
+       "label": "ARR May cycle",
+       "paper": {
+        "local": "2021-05-15 23:59:59",
+        "utc": "2021-05-16T11:59:59Z"
+       }
+      },
+      {
+       "label": "ARR June cycle",
+       "paper": {
+        "local": "2021-06-15 23:59:59",
+        "utc": "2021-06-16T11:59:59Z"
+       }
+      },
+      {
+       "label": "ARR July cycle",
+       "paper": {
+        "local": "2021-07-15 23:59:59",
+        "utc": "2021-07-16T11:59:59Z"
+       }
+      },
+      {
+       "label": "ARR August cycle",
+       "paper": {
+        "local": "2021-08-15 23:59:59",
+        "utc": "2021-08-16T11:59:59Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2021-09-15 23:59:59",
+        "utc": "2021-09-16T11:59:59Z"
+       }
+      },
+      {
+       "label": "",
+       "paper": {
+        "local": "2021-10-15 23:59:59",
+        "utc": "2021-10-16T11:59:59Z"
+       }
+      },
+      {
+       "label": "Final ARR submission",
+       "paper": {
+        "local": "2021-11-15 23:59:59",
+        "utc": "2021-11-16T11:59:59Z"
+       }
+      },
+      {
+       "label": "ARR commitment; reviewed papers only",
+       "paper": {
+        "local": "2022-01-15 23:59:59",
+        "utc": "2022-01-16T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "official_url": "https://2023.aclweb.org/",
+     "timezone": "UTC-12",
+     "conference_dates": "July 10-12, 2023",
+     "place": "Toronto, Canada (Hybrid)",
+     "rounds": [
+      {
+       "label": "ARR submission",
+       "paper": {
+        "local": "2022-12-15 23:59:59",
+        "utc": "2022-12-16T11:59:59Z"
+       }
+      },
+      {
+       "label": "Direct submission",
+       "abstract": {
+        "local": "2023-01-13 23:59:59",
+        "utc": "2023-01-14T11:59:59Z"
+       },
+       "paper": {
+        "local": "2023-01-20 23:59:59",
+        "utc": "2023-01-21T11:59:59Z"
+       }
+      },
+      {
+       "label": "ARR commitment; reviewed papers only",
+       "paper": {
+        "local": "2023-03-17 23:59:59",
+        "utc": "2023-03-18T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "official_url": "https://2024.aclweb.org/",
+     "timezone": "UTC-12",
+     "conference_dates": "August 12-14, 2024",
+     "place": "Bangkok, Thailand",
+     "rounds": [
+      {
+       "label": "ARR submission",
+       "paper": {
+        "local": "2024-02-15 23:59:59",
+        "utc": "2024-02-16T11:59:59Z"
+       }
+      },
+      {
+       "label": "ARR commitment; reviewed papers only",
+       "paper": {
+        "local": "2024-04-20 23:59:59",
+        "utc": "2024-04-21T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "official_url": "https://2025.aclweb.org/",
+     "timezone": "UTC-12",
+     "conference_dates": "July 28-30, 2025",
+     "place": "Vienna, Austria (Hybrid)",
+     "rounds": [
+      {
+       "label": "ARR submission",
+       "paper": {
+        "local": "2025-02-15 23:59:59",
+        "utc": "2025-02-16T11:59:59Z"
+       }
+      },
+      {
+       "label": "ARR commitment; reviewed papers only",
+       "paper": {
+        "local": "2025-04-20 23:59:59",
+        "utc": "2025-04-21T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "official_url": "https://2026.aclweb.org/",
+     "timezone": "UTC-12",
+     "conference_dates": "July 5-7, 2026",
+     "place": "San Diego, California, United States (Hybrid)",
+     "rounds": [
+      {
+       "label": "ARR October cycle",
+       "paper": {
+        "local": "2025-10-06 23:59:59",
+        "utc": "2025-10-07T11:59:59Z"
+       }
+      },
+      {
+       "label": "ARR January cycle",
+       "paper": {
+        "local": "2026-01-05 23:59:59",
+        "utc": "2026-01-06T11:59:59Z"
+       }
+      },
+      {
+       "label": "ARR commitment; reviewed papers only",
+       "paper": {
+        "local": "2026-03-14 23:59:59",
+        "utc": "2026-03-15T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2027,
+     "official_url": "https://2027.aclweb.org/",
+     "timezone": "UTC-12",
+     "conference_dates": "August 20-22, 2027",
+     "place": "Kyoto, Japan",
+     "rounds": [
+      {
+       "label": "ARR Submission",
+       "paper": {
+        "local": "2027-01-04 23:59:59",
+        "utc": "2027-01-05T11:59:59Z"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "emnlp",
+   "name": "EMNLP",
+   "full_name": "The annual Conference on Empirical Methods in Natural Language Processing",
+   "area": "nlp",
+   "coverage": false,
+   "rank": {
+    "ccf": "B",
+    "core": "A*",
+    "thcpl": "A"
+   },
+   "source_file": "conference/AI/emnlp.yml",
+   "editions": [
+    {
+     "year": 2021,
+     "official_url": "https://2021.emnlp.org/",
+     "timezone": "UTC-12",
+     "conference_dates": "November 7-9, 2021",
+     "place": "Punta Cana, Dominican Republic (Hybrid)",
+     "rounds": [
+      {
+       "label": "Direct submission",
+       "abstract": {
+        "local": "2021-05-10 23:59:59",
+        "utc": "2021-05-11T11:59:59Z"
+       },
+       "paper": {
+        "local": "2021-05-17 23:59:59",
+        "utc": "2021-05-18T11:59:59Z"
+       }
+      },
+      {
+       "label": "ARR pilot; reviews ready by July 29",
+       "paper": {
+        "local": "2021-05-15 23:59:59",
+        "utc": "2021-05-16T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "official_url": "https://2022.emnlp.org",
+     "timezone": "UTC-12",
+     "conference_dates": "December 9-11, 2022",
+     "place": "Abu Dhabi (Hybrid)",
+     "rounds": [
+      {
+       "label": "Direct submission",
+       "abstract": {
+        "local": "2022-06-17 23:59:59",
+        "utc": "2022-06-18T11:59:59Z"
+       },
+       "paper": {
+        "local": "2022-06-24 23:59:59",
+        "utc": "2022-06-25T11:59:59Z"
+       }
+      },
+      {
+       "label": "Commitment deadline for papers reviewed by ARR",
+       "paper": {
+        "local": "2022-07-24 23:59:59",
+        "utc": "2022-07-25T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "official_url": "https://2023.emnlp.org",
+     "timezone": "UTC-12",
+     "conference_dates": "December 8-10, 2023",
+     "place": "Singapore (Hybrid)",
+     "rounds": [
+      {
+       "label": "Direct submission",
+       "abstract": {
+        "local": "2023-06-16 23:59:59",
+        "utc": "2023-06-17T11:59:59Z"
+       },
+       "paper": {
+        "local": "2023-06-23 23:59:59",
+        "utc": "2023-06-24T11:59:59Z"
+       }
+      },
+      {
+       "label": "ARR submission",
+       "paper": {
+        "local": "2023-06-15 23:59:59",
+        "utc": "2023-06-16T11:59:59Z"
+       }
+      },
+      {
+       "label": "Commitment deadline for papers reviewed by ARR",
+       "paper": {
+        "local": "2023-08-22 23:59:59",
+        "utc": "2023-08-23T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "official_url": "https://2024.emnlp.org",
+     "timezone": "UTC-12",
+     "conference_dates": "November 12-14, 2024",
+     "place": "Miami, Florida, USA (Hybrid)",
+     "rounds": [
+      {
+       "label": "ARR Submission",
+       "paper": {
+        "local": "2024-06-15 23:59:59",
+        "utc": "2024-06-16T11:59:59Z"
+       }
+      },
+      {
+       "label": "Commitment deadline for papers reviewed by ARR",
+       "paper": {
+        "local": "2024-08-20 23:59:59",
+        "utc": "2024-08-21T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "official_url": "https://2025.emnlp.org/",
+     "timezone": "UTC-12",
+     "conference_dates": "November 5-7, 2025",
+     "place": "Suzhou, China (Hybrid)",
+     "rounds": [
+      {
+       "label": "ARR Submission",
+       "paper": {
+        "local": "2025-05-19 23:59:59",
+        "utc": "2025-05-20T11:59:59Z"
+       }
+      },
+      {
+       "label": "Commitment deadline for papers reviewed by ARR",
+       "paper": {
+        "local": "2025-08-01 23:59:59",
+        "utc": "2025-08-02T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "official_url": "https://2026.emnlp.org/",
+     "timezone": "UTC-12",
+     "conference_dates": "October 25-27, 2026",
+     "place": "Budapest, Hungary (Hybrid)",
+     "rounds": [
+      {
+       "label": "ARR Submission",
+       "paper": {
+        "local": "2026-05-25 23:59:59",
+        "utc": "2026-05-26T11:59:59Z"
+       }
+      },
+      {
+       "label": "Commitment deadline for papers with ARR reviews and meta-reviews",
+       "paper": {
+        "local": "2026-08-02 23:59:59",
+        "utc": "2026-08-03T11:59:59Z"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uai",
+   "name": "UAI",
+   "full_name": "Conference on Uncertainty in Artificial Intelligence",
+   "area": "ml",
+   "coverage": false,
+   "rank": {
+    "ccf": "B",
+    "core": "A",
+    "thcpl": "B"
+   },
+   "source_file": "conference/AI/uai.yml",
+   "editions": [
+    {
+     "year": 2021,
+     "official_url": "http://auai.org/uai2021/",
+     "timezone": "UTC+0",
+     "conference_dates": "July 27-29, 2021",
+     "place": "Virtual",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2021-02-20 23:59:59",
+        "utc": "2021-02-20T23:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "official_url": "https://www.auai.org/uai2022/",
+     "timezone": "AoE",
+     "conference_dates": "August 2-4, 2022",
+     "place": "Eindhoven, Netherlands (Hybrid)",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2022-02-25 23:59:59",
+        "utc": "2022-02-26T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "official_url": "http://auai.org/uai2023/",
+     "timezone": "AoE",
+     "conference_dates": "August 1-3, 2023",
+     "place": "Pittsburgh, PA, USA (Hybrid)",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2023-02-17 23:59:59",
+        "utc": "2023-02-18T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "official_url": "http://auai.org/uai2024/",
+     "timezone": "AoE",
+     "conference_dates": "July 16-18, 2024",
+     "place": "Barcelona, Spain (Hybrid)",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2024-02-09 23:59:59",
+        "utc": "2024-02-10T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "official_url": "https://www.auai.org/uai2025/",
+     "timezone": "AoE",
+     "conference_dates": "July 22-24, 2025",
+     "place": "Rio de Janeiro, Brazil (Hybrid)",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2025-02-10 23:59:59",
+        "utc": "2025-02-11T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "official_url": "https://www.auai.org/uai2026/",
+     "timezone": "AoE",
+     "conference_dates": "August 18-20, 2026",
+     "place": "Amsterdam, Netherlands (Hybrid)",
+     "rounds": [
+      {
+       "label": "",
+       "paper": {
+        "local": "2026-02-25 23:59:59",
+        "utc": "2026-02-26T11:59:59Z"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aistats",
+   "name": "AISTATS",
+   "full_name": "International Conference on Artificial Intelligence and Statistics",
+   "area": "ml",
+   "coverage": false,
+   "rank": {
+    "ccf": "C",
+    "core": "A",
+    "thcpl": "B"
+   },
+   "source_file": "conference/AI/aistats.yml",
+   "editions": [
+    {
+     "year": 2021,
+     "official_url": "https://aistats.org/aistats2021/",
+     "timezone": "UTC-8",
+     "conference_dates": "April 13-15, 2021",
+     "place": "Virtual",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2020-10-08 08:00:00",
+        "utc": "2020-10-08T16:00:00Z"
+       },
+       "paper": {
+        "local": "2020-10-15 08:00:00",
+        "utc": "2020-10-15T16:00:00Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "official_url": "https://aistats.org/aistats2022/",
+     "timezone": "UTC+0",
+     "conference_dates": "March 28-30, 2022",
+     "place": "Virtual",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2021-10-09 11:59:00",
+        "utc": "2021-10-09T11:59:00Z"
+       },
+       "paper": {
+        "local": "2021-10-15 11:59:00",
+        "utc": "2021-10-15T11:59:00Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "official_url": "https://aistats.org/aistats2023/",
+     "timezone": "UTC-12",
+     "conference_dates": "April 25-27, 2023",
+     "place": "Valencia, Spain",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2022-10-06 23:59:59",
+        "utc": "2022-10-07T11:59:59Z"
+       },
+       "paper": {
+        "local": "2022-10-13 23:59:59",
+        "utc": "2022-10-14T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "official_url": "https://aistats.org/aistats2024/",
+     "timezone": "UTC-12",
+     "conference_dates": "May 2-4, 2024",
+     "place": "Valencia, Spain",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2023-10-06 23:59:59",
+        "utc": "2023-10-07T11:59:59Z"
+       },
+       "paper": {
+        "local": "2023-10-16 23:59:59",
+        "utc": "2023-10-17T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "official_url": "https://aistats.org/aistats2025",
+     "timezone": "UTC-12",
+     "conference_dates": "May 3-5, 2025",
+     "place": "Mai Khao, Thailand",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2024-10-03 23:59:59",
+        "utc": "2024-10-04T11:59:59Z"
+       },
+       "paper": {
+        "local": "2024-10-10 23:59:59",
+        "utc": "2024-10-11T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "official_url": "https://virtual.aistats.org/Conferences/2026",
+     "timezone": "UTC-12",
+     "conference_dates": "May 2-4, 2026",
+     "place": "Tangier, Morocco",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2025-09-25 23:59:59",
+        "utc": "2025-09-26T11:59:59Z"
+       },
+       "paper": {
+        "local": "2025-10-02 23:59:59",
+        "utc": "2025-10-03T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2027,
+     "official_url": "https://virtual.aistats.org/Conferences/2027",
+     "timezone": "UTC-12",
+     "conference_dates": "May 3-6, 2027",
+     "place": "Montréal, Canada",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2026-09-29 23:59:59",
+        "utc": "2026-09-30T11:59:59Z"
+       },
+       "paper": {
+        "local": "2026-10-06 23:59:59",
+        "utc": "2026-10-07T11:59:59Z"
+       },
+       "rebuttal": {
+        "local": "2026-11-22 23:59:59",
+        "utc": "2026-11-23T11:59:59Z"
+       },
+       "decision": {
+        "local": "2027-01-20 23:59:59",
+        "utc": "2027-01-21T11:59:59Z"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "colm",
+   "name": "COLM",
+   "full_name": "Conference on Language Modeling",
+   "area": "ml",
+   "coverage": false,
+   "rank": {
+    "ccf": "N",
+    "core": "N",
+    "thcpl": "N"
+   },
+   "source_file": "conference/AI/colm.yml",
+   "editions": [
+    {
+     "year": 2024,
+     "official_url": "https://colmweb.org/2024/cfp.html",
+     "timezone": "AoE",
+     "conference_dates": "October 7-9, 2024",
+     "place": "Philadelphia, Pennsylvania, United States",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2024-03-22 23:59:59",
+        "utc": "2024-03-23T11:59:59Z"
+       },
+       "paper": {
+        "local": "2024-03-29 23:59:59",
+        "utc": "2024-03-30T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "official_url": "https://colmweb.org/2025/cfp.html",
+     "timezone": "AoE",
+     "conference_dates": "October 7-9, 2025",
+     "place": "Palais des Congrès Montreal, Canada",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2025-03-22 23:59:59",
+        "utc": "2025-03-23T11:59:59Z"
+       },
+       "paper": {
+        "local": "2025-03-28 23:59:59",
+        "utc": "2025-03-29T11:59:59Z"
+       }
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "official_url": "https://colm.cc/Conferences/2026/CallForPapers",
+     "timezone": "AoE",
+     "conference_dates": "October 6-8, 2026",
+     "place": "Hilton Union Square, San Francisco, USA",
+     "rounds": [
+      {
+       "label": "",
+       "abstract": {
+        "local": "2026-03-26 23:59:59",
+        "utc": "2026-03-27T11:59:59Z"
+       },
+       "paper": {
+        "local": "2026-03-31 23:59:59",
+        "utc": "2026-04-01T11:59:59Z"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
