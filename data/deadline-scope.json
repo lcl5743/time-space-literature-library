@@ -1,0 +1,38 @@
+{
+  "source": {
+    "name": "ccfddl/ccf-deadlines",
+    "url": "https://github.com/ccfddl/ccf-deadlines",
+    "license": "MIT",
+    "kind": "community-maintained"
+  },
+  "areas": ["ml", "ai", "data", "vision", "nlp"],
+  "venues": [
+    {"id": "neurips", "name": "NeurIPS", "area": "ml", "coverage": true, "file": "conference/AI/nips.yml"},
+    {"id": "icml", "name": "ICML", "area": "ml", "coverage": true, "file": "conference/AI/icml.yml"},
+    {"id": "iclr", "name": "ICLR", "area": "ml", "coverage": true, "file": "conference/AI/iclr.yml"},
+    {"id": "aaai", "name": "AAAI", "area": "ai", "coverage": true, "file": "conference/AI/aaai.yml"},
+    {"id": "ijcai", "name": "IJCAI", "area": "ai", "coverage": true, "file": "conference/AI/ijcai.yml"},
+    {"id": "kdd", "name": "KDD", "area": "data", "coverage": true, "file": "conference/DB/sigkdd.yml"},
+    {"id": "www", "name": "WWW", "area": "data", "coverage": true, "file": "conference/MX/www.yml"},
+    {"id": "cikm", "name": "CIKM", "area": "data", "coverage": true, "file": "conference/DB/cikm.yml"},
+    {"id": "icde", "name": "ICDE", "area": "data", "coverage": true, "file": "conference/DB/icde.yml"},
+    {"id": "sigmod", "name": "SIGMOD", "area": "data", "coverage": true, "file": "conference/DB/sigmod.yml"},
+    {"id": "vldb", "name": "VLDB", "area": "data", "coverage": true, "file": "conference/DB/vldb.yml"},
+    {"id": "sdm", "name": "SDM", "area": "data", "coverage": true, "file": "conference/DB/sdm.yml"},
+    {"id": "cvpr", "name": "CVPR", "area": "vision", "coverage": true, "file": "conference/AI/cvpr.yml"},
+    {"id": "iccv", "name": "ICCV", "area": "vision", "coverage": true, "file": "conference/AI/iccv.yml"},
+    {"id": "eccv", "name": "ECCV", "area": "vision", "coverage": true, "file": "conference/AI/eccv.yml"},
+    {"id": "ecmlpkdd", "name": "ECML PKDD", "area": "data", "coverage": false, "file": "conference/DB/pkdd.yml"},
+    {"id": "icdm", "name": "ICDM", "area": "data", "coverage": false, "file": "conference/DB/icdm.yml"},
+    {"id": "wsdm", "name": "WSDM", "area": "data", "coverage": false, "file": "conference/DB/wsdm.yml"},
+    {"id": "sigir", "name": "SIGIR", "area": "data", "coverage": false, "file": "conference/DB/sigir.yml"},
+    {"id": "recsys", "name": "RecSys", "area": "data", "coverage": false, "file": "conference/DB/recsys.yml"},
+    {"id": "sigspatial", "name": "SIGSPATIAL", "area": "data", "coverage": false, "file": "conference/MX/sigspatial.yml"},
+    {"id": "acmmm", "name": "ACM MM", "area": "vision", "coverage": false, "file": "conference/CG/mm.yml"},
+    {"id": "acl", "name": "ACL", "area": "nlp", "coverage": false, "file": "conference/AI/acl.yml"},
+    {"id": "emnlp", "name": "EMNLP", "area": "nlp", "coverage": false, "file": "conference/AI/emnlp.yml"},
+    {"id": "uai", "name": "UAI", "area": "ml", "coverage": false, "file": "conference/AI/uai.yml"},
+    {"id": "aistats", "name": "AISTATS", "area": "ml", "coverage": false, "file": "conference/AI/aistats.yml"},
+    {"id": "colm", "name": "COLM", "area": "ml", "coverage": false, "file": "conference/AI/colm.yml"}
+  ]
+}

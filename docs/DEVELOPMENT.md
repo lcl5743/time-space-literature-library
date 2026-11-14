@@ -8,7 +8,7 @@ npm test
 npm run dev
 ```
 
-`npm test` builds offline, checks syntax and verifies metadata IDs, source-equivalent journal shards, citation nulls, direction labels, CSV escaping, storage behaviour and static packaging. `npm run build:site` creates the production build in `dist/`.
+`npm test` builds offline, checks syntax and verifies data checksums, deadline parsing and time zones, metadata IDs, source-equivalent journal shards, citation nulls, direction labels, CSV escaping, storage behaviour and static packaging. `npm run build:site` creates the production build in `dist/`.
 
 ## Data collection
 
@@ -18,11 +18,12 @@ Python 3 and `curl` are needed only for explicit collection commands:
 python3 scripts/collect-journals.py
 python3 scripts/collect-ml-journals.py
 python3 scripts/fill-journal-abstracts.py --ids aos,jasa,jrssb,biometrika
+npm run deadlines:collect
 ```
 
 Review the declared cutoff and journal scope before refreshing. Collectors cache responses under ignored `cache/`; API availability and authentication requirements can change. Preserve working snapshots on failed requests. A fresh journal harvest reconstructs source records, so supplements must be rerun after a refresh.
 
-Do not collect while validating a release. After changing data, update provenance, coverage and checksums, then run the tests against frozen inputs.
+Do not collect while validating a release. After changing data, update provenance and coverage, run `npm run manifest` for the checksums, then run the tests against frozen inputs.
 
 ## Static release
 

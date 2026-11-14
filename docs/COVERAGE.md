@@ -1,10 +1,21 @@
 # Coverage and snapshot dates
 
-The sharing edition was prepared on 12 November 2026. This is not a new harvest. The thematic collection retains its October snapshot; the journal collection is limited to 25 October 2026.
+The sharing edition was prepared on 12 November 2026 from the October snapshot. The thematic collection was then updated on 13 November 2026 from 13 newly published source articles; the journal collection is limited to 25 October 2026.
 
 ## Thematic collection
 
-8,442 candidate records; 7,902 abstracts; 4,843 OpenAlex citation matches. The citation snapshot is dated 21 October 2026. Conference/year source coverage and discovery receipts are included in `data/library.json`. 161 extraction fragments are retained for reconciliation and hidden by default.
+8,556 candidate records; 7,934 abstracts; 4,843 OpenAlex citation matches. The 114 records added on 13 November 2026 have no citation count yet. The citation snapshot is dated 21 October 2026. Conference/year source coverage and discovery receipts are included in `data/library.json`. 161 extraction fragments are retained for reconciliation and hidden by default.
+
+### Update of 13 November 2026
+
+The source article directory grew from 229 to 242 articles. Eight of the 13 new articles are in scope.
+
+| Source articles | Papers listed | Added | Basis |
+| --- | ---: | ---: | --- |
+| EMNLP 2026 time series; spatio-temporal | 33 | 32 | ACL Anthology records matched by ID and title; one paper was already present and was re-dated from 2025 to 2026 |
+| ICLR 2027 time series (three articles); spatio-temporal (two articles) | 82 | 82 | Submissions under review before rebuttal: title, OpenReview link and keywords only |
+
+The ICLR 2027 entries are not accepted papers. They carry the status “投稿/抢先清单；未确认录用”, no authors and no abstracts; review scores quoted in the articles are not stored. EMNLP is outside the 15 systematically screened venues, so only the listed papers were added. Five articles on LLMs and graphs and one model announcement are indexed without paper records.
 
 ## Journal inventory
 

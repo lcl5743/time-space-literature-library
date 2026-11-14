@@ -6,6 +6,14 @@ The time-series/spatiotemporal collection combines a retained source spreadsheet
 
 Official conference and publisher pages take precedence for publication status. Crossref, arXiv and other bibliographic sources supply metadata and links. Missing or conflicting information remains explicit. Original abstracts and source pointers are retained independently of generated overviews.
 
+### Source article updates
+
+New articles in the retained article index are read in a browser session and their numbered entries are parsed mechanically. A listed paper is added with official metadata when the article links an official record and the titles match after normalization; otherwise it stays a title-level candidate with the article as its only evidence. Submissions under review are labelled as such, and no authors, abstracts or review scores are inferred for them.
+
+## Conference deadlines
+
+Deadlines are copied from the community-maintained ccfddl/ccf-deadlines list at one pinned commit and are not checked edition by edition. See [DEADLINES.md](DEADLINES.md).
+
 ## Journal collection
 
 The scope file contains 49 requested journals and three marked supplements. All subjects are retained, including in the four core statistics journals.
@@ -30,5 +38,7 @@ Time-series, spatial, spatiotemporal, causal and broader statistical tags use ex
 - [TMLR accepted papers](https://jmlr.org/tmlr/papers/)
 - [OpenAlex](https://openalex.org/)
 - [Paper-Notes discovery index](https://github.com/zhaoyang97/Paper-Notes)
+- [ACL Anthology metadata](https://github.com/acl-org/acl-anthology)
+- [ccfddl/ccf-deadlines](https://github.com/ccfddl/ccf-deadlines)
 
 Individual records retain the specific paper and evidence URLs used for their fields.

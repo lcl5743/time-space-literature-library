@@ -21,4 +21,5 @@ for(const f of fs.readdirSync(path.join(root,'web'))){
  const body=fs.readFileSync(path.join(root,'web',f),'utf8');
  assert.ok(!/\/Users\/cl\/|\.docx|github_pat_|ghp_[A-Za-z0-9]{20}/.test(body),`Private local context in ${f}`);
 }
-console.log('Canonical IDs, citation nulls, snapshot counts and generated data integrity passed');
+import('../scripts/update-manifest.mjs').then(async m=>{assert.equal(fs.readFileSync(path.join(root,'data/MANIFEST.sha256'),'utf8'),await m.manifest(),'data/MANIFEST.sha256 is stale; run npm run manifest');
+ console.log('Canonical IDs, citation nulls, snapshot counts, checksums and generated data integrity passed')}).catch(e=>{console.error(e);process.exit(1)});
