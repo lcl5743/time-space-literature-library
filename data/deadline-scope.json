@@ -31,8 +31,8 @@
     {"id": "acmmm", "name": "ACM MM", "area": "vision", "coverage": false, "file": "conference/CG/mm.yml"},
     {"id": "acl", "name": "ACL", "area": "nlp", "coverage": false, "file": "conference/AI/acl.yml"},
     {"id": "emnlp", "name": "EMNLP", "area": "nlp", "coverage": false, "file": "conference/AI/emnlp.yml"},
-    {"id": "uai", "name": "UAI", "area": "ml", "coverage": false, "file": "conference/AI/uai.yml"},
-    {"id": "aistats", "name": "AISTATS", "area": "ml", "coverage": false, "file": "conference/AI/aistats.yml"},
+    {"id": "uai", "name": "UAI", "area": "ml", "coverage": true, "file": "conference/AI/uai.yml"},
+    {"id": "aistats", "name": "AISTATS", "area": "ml", "coverage": true, "file": "conference/AI/aistats.yml"},
     {"id": "colm", "name": "COLM", "area": "ml", "coverage": false, "file": "conference/AI/colm.yml"}
   ]
 }

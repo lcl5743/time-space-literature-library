@@ -14,6 +14,10 @@ New articles in the retained article index are read in a browser session and the
 
 Reading lists and survey reference lists are compared with the collection by normalized title. A missing paper is added only when a bibliographic source returns the same title: a Crossref record for a publisher DOI, an official proceedings or conference listing, the journal collection, or the arXiv record. Venue and year come from that source, not from the list. Abstracts are taken from the publisher deposit, the official page or the arXiv version, and the evidence names which. A paper that no source confirms is left out.
 
+### Venue screens
+
+`scripts/screen-venues.py` screens AISTATS, UAI and TMLR against their complete official paper lists with the title pattern of the original conference screen: PMLR volume pages for AISTATS and for UAI from 2019, the official UAI pages for 2011 and 2013–2018, and the TMLR accepted-paper directory held in the journal collection. A title match is added when no record has the same normalized title; a close title (similarity ≥ 0.9) of the same venue and year ±1 is reported as a near-duplicate instead. Abstracts come from the official paper page, or from the arXiv version only when the arXiv title is identical. Each venue-year gets a coverage row with the list size and match counts. Without `--write` the script is a dry run.
+
 ## Conference deadlines
 
 Deadlines are copied from the community-maintained ccfddl/ccf-deadlines list at one pinned commit and are not checked edition by edition. See [DEADLINES.md](DEADLINES.md).

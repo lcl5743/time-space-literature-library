@@ -10,7 +10,7 @@
  tableNote:['列为会议举办年份；格内是该届的论文截止日期（按原时区）。多轮投稿逐轮列出，按月滚动的只显示首末两轮。','Columns are conference years. Cells show that edition’s paper deadlines in the original time zone. Multi-round venues list each round; monthly rolling venues show the first and last round.'],
  journalHeading:['期刊投稿','Journal submissions'],journalNote:['本站收录的期刊没有统一的年度截稿日期，多数常年接收投稿；专刊、特邀稿件另有安排，本站没有逐刊核对。请到期刊官网查看投稿说明。','The journals in this library have no shared annual deadline; most accept submissions year-round, while special issues and invited content follow their own schedules. These policies were not checked journal by journal here. See each journal’s site for submission instructions.'],
  methodHeading:['数据来源与更新方式','Data source and updates'],download:['↓ 下载截止时间数据 JSON','↓ Download deadline data (JSON)'],footer:['仅供投稿规划参考。时间以会议官网公布为准。','For planning only. The official conference site is authoritative.'],
- allAreas:['全部领域','All areas'],allVenues:['全部会议','All venues'],coverageVenues:['仅 15 个系统检索会议','Only the 15 systematically screened venues'],
+ allAreas:['全部领域','All areas'],allVenues:['全部会议','All venues'],coverageVenues:['仅系统检索过的 {n} 个会议','Only the {n} systematically screened venues'],
  ml:['机器学习','Machine learning'],ai:['人工智能','Artificial intelligence'],data:['数据挖掘 / 数据库 / 检索','Data mining / databases / IR'],vision:['计算机视觉 / 多媒体','Computer vision / multimedia'],nlp:['自然语言处理','Natural language processing'],
  abstract:['摘要截止','Abstract deadline'],paper:['论文截止','Paper deadline'],rebuttal:['Rebuttal 截止','Rebuttal deadline'],decision:['录用通知','Decision'],
  statUpcoming:['个即将截止的投稿轮次','upcoming submission rounds'],statNext:['最近的截止','Nearest deadline'],statVenues:['个会议','venues'],statEditions:['届会议记录','editions recorded'],none:['暂无','None'],
@@ -46,7 +46,7 @@
   $('#deadlineLanguage').value=lang;$('#deadlineNotice').textContent=T('notice');$('#deadlineRetrieved').textContent=`${T('retrieved')} ${data.retrieved_at.slice(0,10)}`;
   const years=U.years(data);$('#deadlineRange').textContent=`${years[0]}—${years.at(-1)}`;
   $('#deadlineArea').innerHTML=options([['',T('allAreas')],...[...new Set(data.venues.map(v=>v.area))].map(a=>[a,T(a)])],state.area);
-  $('#deadlineScope').innerHTML=options([['',T('allVenues')],['coverage',T('coverageVenues')]],state.coverage?'coverage':'');
+  $('#deadlineScope').innerHTML=options([['',T('allVenues')],['coverage',T('coverageVenues').replace('{n}',data.venues.filter(v=>v.coverage).length)]],state.coverage?'coverage':'');
   $('#deadlineYears').innerHTML=options([['recent',T('recentYears')],['all',T('allYearsOption')]],state.years);
   $('#deadlineMethod').textContent=T('method').replace('{source}',data.source.name).replace('{license}',data.source.license).replace('{commit}',data.source.commit.slice(0,7)).replace('{date}',data.retrieved_at.slice(0,10));
   $('#deadlineJournalList').innerHTML=(data.journals||[]).map(j=>`<li>${safeLink(j.official_url,j.title)||esc(j.title)}</li>`).join('');render()}

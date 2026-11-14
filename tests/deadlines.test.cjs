@@ -47,7 +47,7 @@ const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
  // Stored snapshot: every scoped venue present, instants consistent with the published local time.
  const stored=read('data/deadlines.json'),scope=read('data/deadline-scope.json');
  assert.deepEqual(stored.venues.map(v=>v.id),scope.venues.map(v=>v.id));assert.equal(new Set(stored.venues.map(v=>v.id)).size,stored.venues.length);assert.match(stored.source.commit,/^[0-9a-f]{40}$/);assert.ok(!Number.isNaN(Date.parse(stored.retrieved_at)));
- const library=read('data/library.json');for(const name of library.coverage_venues)assert.ok(stored.venues.some(v=>v.name===name&&v.coverage),`Coverage venue ${name} has no deadline record`);
+ const library=read('data/library.json'),journals=new Set(read('data/journal-scope.json').journals.map(j=>j.id.toUpperCase()));for(const name of library.coverage_venues.filter(n=>!journals.has(n)))assert.ok(stored.venues.some(v=>v.name===name&&v.coverage),`Coverage venue ${name} has no deadline record`);
  let dated=0;
  for(const v of stored.venues){assert.ok(v.editions.length,`${v.name} has no editions`);
   for(const e of v.editions){assert.ok(Number.isInteger(e.year));assert.match(e.official_url,/^https?:\/\//,`${v.name} ${e.year} lacks an official link`);

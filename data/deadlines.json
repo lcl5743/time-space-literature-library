@@ -4538,7 +4538,7 @@
    "name": "UAI",
    "full_name": "Conference on Uncertainty in Artificial Intelligence",
    "area": "ml",
-   "coverage": false,
+   "coverage": true,
    "rank": {
     "ccf": "B",
     "core": "A",
@@ -4649,7 +4649,7 @@
    "name": "AISTATS",
    "full_name": "International Conference on Artificial Intelligence and Statistics",
    "area": "ml",
-   "coverage": false,
+   "coverage": true,
    "rank": {
     "ccf": "C",
     "core": "A",

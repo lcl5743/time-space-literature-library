@@ -3,8 +3,8 @@
   "packaged_at": "2026-10-22",
   "source_site_commit": "f845ddcbac9e6713007d163dd59c5903bacdf6f3",
   "website": "https://lcl5743.github.io/time-space-literature-library/",
-  "records": 8678,
-  "abstracts": 8027,
+  "records": 9030,
+  "abstracts": 8323,
   "blog_articles": 242,
   "citation_source": "OpenAlex",
   "citation_matched": 4843,
@@ -16,8 +16,8 @@
     "credentials",
     "hosting identity/configuration"
   ],
-  "coverage": "2010–2026 candidate collection, ICLR 2027 submissions listed before rebuttal, and key papers from reading lists; not exhaustive or fully publication-verified",
-  "dataset_version": "2026.11.14.1",
+  "coverage": "2010–2026 title screen of 15 conferences plus AISTATS, UAI and TMLR, ICLR 2027 submissions listed before rebuttal, and key papers from reading lists; not exhaustive or fully publication-verified",
+  "dataset_version": "2026.11.14.2",
   "corrections": [
     {
       "date": "2026-10-22",
@@ -161,6 +161,51 @@
         "OpenAlex API (title lookup only)"
       ],
       "summary": "List comparison by normalized title; a paper is added only when a source returns the same title, with venue and year taken from that source. Code links come from the researcher's lists and are not checked. Not a systematic screen of journals or further venues.",
+      "citations": "new records are unmatched (null) until queried; existing counts unchanged"
+    },
+    {
+      "date": "2026-11-14",
+      "added_records": 352,
+      "script": "scripts/screen-venues.py",
+      "venues": {
+        "AISTATS": {
+          "years": "2010-2026",
+          "source": "PMLR volume pages",
+          "papers": 5201,
+          "title_matches": 121,
+          "present": 7,
+          "added": 114
+        },
+        "UAI": {
+          "years": "2011, 2013-2026",
+          "source": "official UAI pages (2011-2018), PMLR (2019-2026)",
+          "papers": 2340,
+          "title_matches": 56,
+          "present": 1,
+          "added": 55
+        },
+        "TMLR": {
+          "years": "2022-2026",
+          "source": "TMLR accepted-paper directory via the journal collection",
+          "papers": 4967,
+          "title_matches": 199,
+          "present": 15,
+          "added": 183
+        }
+      },
+      "added_in_scope": 314,
+      "added_boundary": 38,
+      "abstracts": {
+        "official_page": 168,
+        "arxiv_same_title": 128,
+        "missing": 56
+      },
+      "near_duplicates_not_added": 1,
+      "not_screened": [
+        "UAI 2010",
+        "UAI 2012"
+      ],
+      "summary": "Complete official paper lists screened with the original conference title pattern; venue and year from the official list; abstracts from official pages or an identical-title arXiv version. Coverage rows added per venue-year and the three venues added to coverage_venues.",
       "citations": "new records are unmatched (null) until queried; existing counts unchanged"
     }
   ],
