@@ -1,6 +1,6 @@
 # Conference deadlines
 
-The deadlines page (`deadlines.html`) shows abstract, paper, rebuttal and decision dates for the conferences that appear in the thematic collection: the 15 systematically screened venues and 12 further venues, 27 in total.
+The deadlines page (`deadlines.html`) shows abstract, paper, rebuttal and decision dates for the conferences that appear in the thematic collection: the 17 conferences with a systematic title screen (the original 15 plus AISTATS and UAI) and 10 further venues, 27 in total.
 
 ## Source and limits
 
@@ -12,7 +12,7 @@ Journals are listed with their official links only. No per-journal submission po
 
 | File | Contents |
 | --- | --- |
-| `data/deadline-scope.json` | The tracked venues: display name, area, whether the venue is one of the 15 screened venues, and its file in the source repository |
+| `data/deadline-scope.json` | The tracked venues: display name, area, whether the venue's paper lists were screened systematically, and its file in the source repository |
 | `data/deadlines.json` | The snapshot: source commit, retrieval time and, per venue, every edition with its official link, time zone, conference dates and rounds |
 | `scripts/collect-deadlines.mjs` | The collector |
 | `web/deadline-utils.js`, `web/deadlines.js` | Page logic |

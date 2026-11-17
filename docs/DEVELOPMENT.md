@@ -19,6 +19,7 @@ python3 scripts/collect-journals.py
 python3 scripts/collect-ml-journals.py
 python3 scripts/fill-journal-abstracts.py --ids aos,jasa,jrssb,biometrika
 npm run deadlines:collect
+python3 scripts/screen-venues.py            # dry run; add --write to update the library
 ```
 
 Review the declared cutoff and journal scope before refreshing. Collectors cache responses under ignored `cache/`; API availability and authentication requirements can change. Preserve working snapshots on failed requests. A fresh journal harvest reconstructs source records, so supplements must be rerun after a refresh.

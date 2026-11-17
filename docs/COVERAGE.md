@@ -1,10 +1,10 @@
 # Coverage and snapshot dates
 
-The sharing edition was prepared on 12 November 2026 from the October snapshot. The thematic collection was then updated on 13 November 2026 from 13 newly published source articles and on 14 November 2026 from a key-paper check; the journal collection is limited to 25 October 2026.
+The sharing edition was prepared on 12 November 2026 from the October snapshot. The thematic collection was then updated on 13 November 2026 from 13 newly published source articles and on 14 November 2026 from a key-paper check and a screen of AISTATS, UAI and TMLR; the journal collection is limited to 25 October 2026.
 
 ## Thematic collection
 
-8,678 candidate records; 8,027 abstracts; 4,843 OpenAlex citation matches. The 236 records added on 13 and 14 November 2026 have no citation count yet. The citation snapshot is dated 21 October 2026. Conference/year source coverage and discovery receipts are included in `data/library.json`. 161 extraction fragments are retained for reconciliation and hidden by default.
+9,030 candidate records; 8,323 abstracts; 4,843 OpenAlex citation matches. The 588 records added on 13 and 14 November 2026 have no citation count yet. The citation snapshot is dated 21 October 2026. Conference/year source coverage and discovery receipts are included in `data/library.json`. 161 extraction fragments are retained for reconciliation and hidden by default.
 
 ### Update of 13 November 2026
 
@@ -42,7 +42,27 @@ The missing papers follow from how the collection was built: source articles plu
 
 Not added: 53 survey references that are general background (for example sequence-model and generative-model papers), predate 2010, or have no topic term in the title; and 4 titles for which no matching record was found in Crossref, arXiv or official listings.
 
-This check is a list comparison, not a systematic screen. Journals outside the journal collection, AISTATS, UAI and TMLR have not been screened year by year.
+This check is a list comparison, not a systematic screen. AISTATS, UAI and TMLR were screened systematically afterwards (next section); other journals outside the journal collection have not been.
+
+### AISTATS, UAI and TMLR screen of 14 November 2026
+
+The complete official paper list of every available year was screened with the title pattern of the original conference screen (`scripts/screen-venues.py`).
+
+| Venue | Lists screened | Papers listed | Title matches | Already present | Added |
+| --- | --- | ---: | ---: | ---: | ---: |
+| AISTATS | 2010–2026, PMLR volumes | 5,201 | 121 | 7 | 114 |
+| UAI | 2011, 2013–2018 official site; 2019–2026 PMLR | 2,340 | 56 | 1 | 55 |
+| TMLR | 2022–2026, official accepted-paper directory (journal collection) | 4,967 | 199 | 15 | 183 |
+
+- 352 records added; 314 are in scope by the collection's scope rule and 38 are boundary records (mostly change-point, temporal point process and time-varying bandit titles), hidden by default like other boundary records.
+- Abstracts: 114 AISTATS and 44 UAI from the PMLR paper pages, 10 UAI from the official UAI pages, and 128 TMLR from the arXiv version with the same title. 56 records have no abstract (55 TMLR without an exact arXiv match, 1 UAI 2014).
+- Venue and year come from the official list. PMLR and TMLR records are marked as verified publications; records from the older UAI pages as listed on the official site.
+- Of the 23 matches already present, 9 are stored under NeurIPS, ICML or ICLR (TMLR papers also presented at a conference, or the same title) and were left unchanged.
+- One near-duplicate was not added: "When Does Multimodality Lead to Better Time Series Forecasting?" (TMLR 2026) is close to an existing record without a venue, "Does Multimodality Lead to Better Time Series Forecasting?".
+- One added TMLR record shares arXiv 2502.14045 with an existing preprint record under an earlier title ("Position: There are no Champions in Long-Term Time Series Forecasting"). The two are kept apart with a note in `conflicts` until the versions are checked.
+- Not screened: UAI 2010 and 2012, for which no official paper list is online. TMLR years before 2022 are marked as before the journal existed.
+
+The coverage table on the website now shows 18 rows: the original 15 conferences plus AISTATS, UAI and TMLR.
 
 ## Journal inventory
 
